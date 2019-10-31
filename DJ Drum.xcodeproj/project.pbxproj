@@ -64,6 +64,8 @@
 		908308FD236B550700DBC014 /* DrumState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308FC236B550700DBC014 /* DrumState.swift */; };
 		908308FF236B7CD800DBC014 /* TutorialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308FE236B7CD800DBC014 /* TutorialViewModel.swift */; };
 		90830901236B952A00DBC014 /* MidiNoteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830900236B952A00DBC014 /* MidiNoteExtension.swift */; };
+		90830903236BA31900DBC014 /* OctavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830902236BA31900DBC014 /* OctavesView.swift */; };
+		90830905236BA50300DBC014 /* SlowControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830904236BA50300DBC014 /* SlowControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +139,8 @@
 		908308FC236B550700DBC014 /* DrumState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumState.swift; sourceTree = "<group>"; };
 		908308FE236B7CD800DBC014 /* TutorialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewModel.swift; sourceTree = "<group>"; };
 		90830900236B952A00DBC014 /* MidiNoteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiNoteExtension.swift; sourceTree = "<group>"; };
+		90830902236BA31900DBC014 /* OctavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctavesView.swift; sourceTree = "<group>"; };
+		90830904236BA50300DBC014 /* SlowControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 				908308F2236AF0BE00DBC014 /* TutorialView.swift */,
 				908308FE236B7CD800DBC014 /* TutorialViewModel.swift */,
 				90830900236B952A00DBC014 /* MidiNoteExtension.swift */,
+				90830902236BA31900DBC014 /* OctavesView.swift */,
+				90830904236BA50300DBC014 /* SlowControlView.swift */,
 				90830870236AE56D00DBC014 /* Assets.xcassets */,
 				90830875236AE56D00DBC014 /* LaunchScreen.storyboard */,
 				90830878236AE56D00DBC014 /* Info.plist */,
@@ -474,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90830903236BA31900DBC014 /* OctavesView.swift in Sources */,
 				908308FB236B4FF900DBC014 /* DrumView.swift in Sources */,
 				908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */,
 				908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */,
@@ -491,6 +498,7 @@
 				9083086D236AE56C00DBC014 /* SceneDelegate.swift in Sources */,
 				90830901236B952A00DBC014 /* MidiNoteExtension.swift in Sources */,
 				908308FF236B7CD800DBC014 /* TutorialViewModel.swift in Sources */,
+				90830905236BA50300DBC014 /* SlowControlView.swift in Sources */,
 				908308C8236AE68C00DBC014 /* MidiNote.swift in Sources */,
 				908308ED236AE98100DBC014 /* Song.swift in Sources */,
 				908308BD236AE68C00DBC014 /* EventProtocol.swift in Sources */,

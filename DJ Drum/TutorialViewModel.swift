@@ -16,6 +16,8 @@ class TutorialViewModel: ObservableObject {
     @Published var timeStamp: Float64 = 0
     @Published var octave: Int = 4
     @Published var isPlaying = true
+    @Published var slowFactor: Int = 1
+    private var iterationCount = 1
     var timerSubscription: AnyCancellable?
     var cancellableTimerPublisher: Cancellable?
     let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
@@ -51,6 +53,8 @@ class TutorialViewModel: ObservableObject {
             .sink { [weak self] receivedTimeStamp in
                 guard let self = self else { return }
                 guard self.isPlaying else { return }
+                self.iterationCount += 1
+                guard self.iterationCount % self.slowFactor == 0 else { return }
                 self.timeStamp += TutorialViewModel.timeInterval
         }
         cancellableTimerPublisher = timerPublisher.connect()
@@ -68,6 +72,15 @@ class TutorialViewModel: ObservableObject {
     
     func pause() {
         isPlaying = false
+    }
+    
+    func increaseSlowFactor() {
+        slowFactor += 1
+    }
+    
+    func decreaseSlowFactor() {
+        guard slowFactor > 1 else { return }
+        slowFactor -= 1
     }
     
     func increaseOctave() {

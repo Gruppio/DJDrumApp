@@ -16,35 +16,33 @@ struct TutorialView: View {
             DrumView(drumState: viewModel.getDrumState())
             Spacer()
             
-            VStack(alignment: .leading) {
-                Text("Current Octaves: " + viewModel.currentOctavesDescription)
-                Text("All Octaves: " + viewModel.allOctavesDescription)
-                HStack {
-                    Button(action: viewModel.decreaseOctave) {
-                        Image(systemName: "minus.circle")
-                    }
-                    Text("\(viewModel.octave)")
-                    Button(action: viewModel.increaseOctave) {
-                        Image(systemName: "plus.circle")
-                    }
-                    Spacer()
-                    
+            HStack(alignment: .lastTextBaseline) {
+                OctavesView(viewModel: viewModel)
+                Spacer()
+                SlowControlView(viewModel: viewModel)
+                Spacer()
+                VStack {
                     Button(action: viewModel.reset) {
                         Image(systemName: "arrow.counterclockwise.circle")
-                    }
+                        .font(.largeTitle)
+                    }.padding()
                     if viewModel.isPlaying {
                         Button(action: viewModel.pause) {
                             Image(systemName: "pause.circle")
+                            .font(.largeTitle)
                         }
                     } else {
                         Button(action: viewModel.play) {
                             Image(systemName: "play.circle")
+                            .font(.largeTitle)
                         }
                     }
-                }.font(.largeTitle)
-                //Slider(value: $viewModel.timeStamp, from: Float64(0.0), to: Float64(100.0))
-                Slider(value: $viewModel.timeStamp, in: Float64(0.0)...viewModel.duration, step: 0.5)
+                }
             }.padding()
+            
+            Slider(value: $viewModel.timeStamp, in: Float64(0.0)...viewModel.duration, step: 0.5)
+            .padding()
+            
         }.navigationBarTitle("Tutorial")
     }
 }
