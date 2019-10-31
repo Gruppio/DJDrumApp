@@ -66,6 +66,25 @@
 		90830901236B952A00DBC014 /* MidiNoteExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830900236B952A00DBC014 /* MidiNoteExtension.swift */; };
 		90830903236BA31900DBC014 /* OctavesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830902236BA31900DBC014 /* OctavesView.swift */; };
 		90830905236BA50300DBC014 /* SlowControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830904236BA50300DBC014 /* SlowControlView.swift */; };
+		90830919236BA6BE00DBC014 /* Wake_me_up_Avicii-2.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830906236BA6BC00DBC014 /* Wake_me_up_Avicii-2.mid */; };
+		9083091A236BA6BE00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830907236BA6BD00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid */; };
+		9083091B236BA6BE00DBC014 /* Sun_Is_Shining.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830908236BA6BD00DBC014 /* Sun_Is_Shining.mid */; };
+		9083091C236BA6BE00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */; };
+		9083091D236BA6BE00DBC014 /* Avicii_-_SOS.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */; };
+		9083091E236BA6BE00DBC014 /* Sebastian_Ingrosso_-_Reload.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */; };
+		9083091F236BA6BE00DBC014 /* On_My_Way_-_AxwellIngrosso.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */; };
+		90830920236BA6BE00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */; };
+		90830921236BA6BE00DBC014 /* Avicii_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */; };
+		90830922236BA6BE00DBC014 /* Swedish_House_Mafia_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */; };
+		90830923236BA6BE00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */; };
+		90830924236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */; };
+		90830925236BA6BE00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */; };
+		90830926236BA6BE00DBC014 /* Avicii_levels.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830913236BA6BD00DBC014 /* Avicii_levels.mid */; };
+		90830927236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */; };
+		90830928236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */; };
+		90830929236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */; };
+		9083092A236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */; };
+		9083092B236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +160,25 @@
 		90830900236B952A00DBC014 /* MidiNoteExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiNoteExtension.swift; sourceTree = "<group>"; };
 		90830902236BA31900DBC014 /* OctavesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctavesView.swift; sourceTree = "<group>"; };
 		90830904236BA50300DBC014 /* SlowControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowControlView.swift; sourceTree = "<group>"; };
+		90830906236BA6BC00DBC014 /* Wake_me_up_Avicii-2.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Wake_me_up_Avicii-2.mid"; sourceTree = "<group>"; };
+		90830907236BA6BD00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Heaven_-_Avicii__Piano_Tutorial.mid"; sourceTree = "<group>"; };
+		90830908236BA6BD00DBC014 /* Sun_Is_Shining.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Sun_Is_Shining.mid; sourceTree = "<group>"; };
+		90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Lonely_Together_ft._Rita_Ora.mid"; sourceTree = "<group>"; };
+		9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_SOS.mid"; sourceTree = "<group>"; };
+		9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Sebastian_Ingrosso_-_Reload.mid"; sourceTree = "<group>"; };
+		9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "On_My_Way_-_AxwellIngrosso.mid"; sourceTree = "<group>"; };
+		9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "SOS_-_Avicii__Aloe_Blacc.mid"; sourceTree = "<group>"; };
+		9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii_Medley.mid; sourceTree = "<group>"; };
+		9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Swedish_House_Mafia_Medley.mid; sourceTree = "<group>"; };
+		90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Heroes_-Alesso_for_Front_ensemble.mid"; sourceTree = "<group>"; };
+		90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell__Ingrosso_-_Dreamer_ft.mid"; sourceTree = "<group>"; };
+		90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; sourceTree = "<group>"; };
+		90830913236BA6BD00DBC014 /* Avicii_levels.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii_levels.mid; sourceTree = "<group>"; };
+		90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell__Ingrosso_-_Dreamer_ft-2.mid"; sourceTree = "<group>"; };
+		90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Wake_Me_Up_-_Avicii.mid"; sourceTree = "<group>"; };
+		90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Heaven_Chris_Martin.mid"; sourceTree = "<group>"; };
+		90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
+		90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Wake_Me_Up_Avicii.mid; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +376,25 @@
 				908308DE236AE72400DBC014 /* More_than_you_know.mid */,
 				908308DA236AE72300DBC014 /* Secrets.mid */,
 				908308DC236AE72300DBC014 /* Years.mid */,
+				90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */,
+				90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */,
+				9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */,
+				90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */,
+				90830913236BA6BD00DBC014 /* Avicii_levels.mid */,
+				9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */,
+				90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */,
+				90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */,
+				90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */,
+				90830907236BA6BD00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid */,
+				90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */,
+				9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */,
+				9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */,
+				9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */,
+				90830908236BA6BD00DBC014 /* Sun_Is_Shining.mid */,
+				9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */,
+				90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */,
+				90830906236BA6BC00DBC014 /* Wake_me_up_Avicii-2.mid */,
+				90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -430,16 +487,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90830929236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */,
 				908308E1236AE72400DBC014 /* Secrets.mid in Resources */,
 				90830877236AE56D00DBC014 /* LaunchScreen.storyboard in Resources */,
 				908308E2236AE72400DBC014 /* Amour_tojours.mid in Resources */,
 				908308E4236AE72400DBC014 /* Lonely_together.mid in Resources */,
+				90830924236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid in Resources */,
+				90830923236BA6BE00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid in Resources */,
+				90830922236BA6BE00DBC014 /* Swedish_House_Mafia_Medley.mid in Resources */,
+				90830925236BA6BE00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */,
 				908308DF236AE72400DBC014 /* Calling.mid in Resources */,
 				908308E0236AE72400DBC014 /* Belong.mid in Resources */,
+				90830920236BA6BE00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid in Resources */,
+				9083091F236BA6BE00DBC014 /* On_My_Way_-_AxwellIngrosso.mid in Resources */,
+				9083091E236BA6BE00DBC014 /* Sebastian_Ingrosso_-_Reload.mid in Resources */,
+				9083091C236BA6BE00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid in Resources */,
 				908308E3236AE72400DBC014 /* Years.mid in Resources */,
+				90830921236BA6BE00DBC014 /* Avicii_Medley.mid in Resources */,
+				90830926236BA6BE00DBC014 /* Avicii_levels.mid in Resources */,
+				90830919236BA6BE00DBC014 /* Wake_me_up_Avicii-2.mid in Resources */,
+				90830928236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid in Resources */,
+				9083092B236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid in Resources */,
 				90830874236AE56D00DBC014 /* Preview Assets.xcassets in Resources */,
 				90830871236AE56D00DBC014 /* Assets.xcassets in Resources */,
+				9083091B236BA6BE00DBC014 /* Sun_Is_Shining.mid in Resources */,
+				9083091A236BA6BE00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid in Resources */,
+				90830927236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid in Resources */,
+				9083091D236BA6BE00DBC014 /* Avicii_-_SOS.mid in Resources */,
 				908308E5236AE72400DBC014 /* More_than_you_know.mid in Resources */,
+				9083092A236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
