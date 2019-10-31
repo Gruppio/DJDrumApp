@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,51 @@
 		90830874236AE56D00DBC014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90830873236AE56D00DBC014 /* Preview Assets.xcassets */; };
 		90830877236AE56D00DBC014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90830875236AE56D00DBC014 /* LaunchScreen.storyboard */; };
 		90830882236AE56D00DBC014 /* DJ_DrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830881236AE56D00DBC014 /* DJ_DrumTests.swift */; };
+		908308B6236AE68C00DBC014 /* MidiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083088E236AE68C00DBC014 /* MidiError.swift */; };
+		908308B7236AE68C00DBC014 /* MidiPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830890236AE68C00DBC014 /* MidiPatch.swift */; };
+		908308B8236AE68C00DBC014 /* GMPatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830891236AE68C00DBC014 /* GMPatch.swift */; };
+		908308B9236AE68C00DBC014 /* PatchFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830892236AE68C00DBC014 /* PatchFamily.swift */; };
+		908308BA236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830894236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift */; };
+		908308BB236AE68C00DBC014 /* MidiAUPresetEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830895236AE68C00DBC014 /* MidiAUPresetEvent.swift */; };
+		908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830896236AE68C00DBC014 /* MidiChannelMessage.swift */; };
+		908308BD236AE68C00DBC014 /* EventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830897236AE68C00DBC014 /* EventProtocol.swift */; };
+		908308BE236AE68C00DBC014 /* MidiRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830898236AE68C00DBC014 /* MidiRawData.swift */; };
+		908308BF236AE68C00DBC014 /* MidiParameterEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90830899236AE68C00DBC014 /* MidiParameterEvent.swift */; };
+		908308C0236AE68C00DBC014 /* EventInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083089A236AE68C00DBC014 /* EventInfo.swift */; };
+		908308C1236AE68C00DBC014 /* MidiTimeSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083089C236AE68C00DBC014 /* MidiTimeSignature.swift */; };
+		908308C2236AE68C00DBC014 /* MetaEventProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083089D236AE68C00DBC014 /* MetaEventProtocol.swift */; };
+		908308C3236AE68C00DBC014 /* MetaEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083089E236AE68C00DBC014 /* MetaEvent.swift */; };
+		908308C4236AE68C00DBC014 /* MidiLyric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083089F236AE68C00DBC014 /* MidiLyric.swift */; };
+		908308C5236AE68C00DBC014 /* MetaEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A0236AE68C00DBC014 /* MetaEventType.swift */; };
+		908308C6236AE68C00DBC014 /* MidiKeySignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A2236AE68C00DBC014 /* MidiKeySignature.swift */; };
+		908308C7236AE68C00DBC014 /* KeySignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A3236AE68C00DBC014 /* KeySignature.swift */; };
+		908308C8236AE68C00DBC014 /* MidiNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A4236AE68C00DBC014 /* MidiNote.swift */; };
+		908308C9236AE68C00DBC014 /* MidiEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A5236AE68C00DBC014 /* MidiEventType.swift */; };
+		908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A6236AE68C00DBC014 /* MidiEventUserData.swift */; };
+		908308CB236AE68C00DBC014 /* MidiExtendedTempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A7236AE68C00DBC014 /* MidiExtendedTempo.swift */; };
+		908308CC236AE68C00DBC014 /* MidiTempoTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308A9236AE68C00DBC014 /* MidiTempoTrack.swift */; };
+		908308CD236AE68C00DBC014 /* SequenceTrackProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308AA236AE68C00DBC014 /* SequenceTrackProperty.swift */; };
+		908308CE236AE68C00DBC014 /* MidiTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308AB236AE68C00DBC014 /* MidiTrack.swift */; };
+		908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308AC236AE68C00DBC014 /* MidiNoteTrack.swift */; };
+		908308D0236AE68C00DBC014 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308AE236AE68C00DBC014 /* Util.swift */; };
+		908308D1236AE68C00DBC014 /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308AF236AE68C00DBC014 /* Byte.swift */; };
+		908308D2236AE68C00DBC014 /* MidiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308B1236AE68C00DBC014 /* MidiData.swift */; };
+		908308D3236AE68C00DBC014 /* HeaderChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308B2236AE68C00DBC014 /* HeaderChunk.swift */; };
+		908308D4236AE68C00DBC014 /* MidiInfoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308B3236AE68C00DBC014 /* MidiInfoKey.swift */; };
+		908308D5236AE68C00DBC014 /* EventIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308B4236AE68C00DBC014 /* EventIterator.swift */; };
+		908308D6236AE68C00DBC014 /* MidiSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308B5236AE68C00DBC014 /* MidiSequence.swift */; };
+		908308DF236AE72400DBC014 /* Calling.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308D8236AE72300DBC014 /* Calling.mid */; };
+		908308E0236AE72400DBC014 /* Belong.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308D9236AE72300DBC014 /* Belong.mid */; };
+		908308E1236AE72400DBC014 /* Secrets.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308DA236AE72300DBC014 /* Secrets.mid */; };
+		908308E2236AE72400DBC014 /* Amour_tojours.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308DB236AE72300DBC014 /* Amour_tojours.mid */; };
+		908308E3236AE72400DBC014 /* Years.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308DC236AE72300DBC014 /* Years.mid */; };
+		908308E4236AE72400DBC014 /* Lonely_together.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308DD236AE72300DBC014 /* Lonely_together.mid */; };
+		908308E5236AE72400DBC014 /* More_than_you_know.mid in Resources */ = {isa = PBXBuildFile; fileRef = 908308DE236AE72400DBC014 /* More_than_you_know.mid */; };
+		908308E8236AE82C00DBC014 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 908308E7236AE82C00DBC014 /* Rswift */; };
+		908308EB236AE94D00DBC014 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308EA236AE94D00DBC014 /* R.generated.swift */; };
+		908308ED236AE98100DBC014 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308EC236AE98100DBC014 /* Song.swift */; };
+		908308EF236AEAE900DBC014 /* SelectSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308EE236AEAE900DBC014 /* SelectSongView.swift */; };
+		908308F1236AECB100DBC014 /* SelectTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308F0236AECB100DBC014 /* SelectTrackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +83,50 @@
 		9083087D236AE56D00DBC014 /* DJ DrumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DJ DrumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90830881236AE56D00DBC014 /* DJ_DrumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJ_DrumTests.swift; sourceTree = "<group>"; };
 		90830883236AE56D00DBC014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9083088E236AE68C00DBC014 /* MidiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiError.swift; sourceTree = "<group>"; };
+		90830890236AE68C00DBC014 /* MidiPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiPatch.swift; sourceTree = "<group>"; };
+		90830891236AE68C00DBC014 /* GMPatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPatch.swift; sourceTree = "<group>"; };
+		90830892236AE68C00DBC014 /* PatchFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatchFamily.swift; sourceTree = "<group>"; };
+		90830894236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiExtendedNoteOnEvent.swift; sourceTree = "<group>"; };
+		90830895236AE68C00DBC014 /* MidiAUPresetEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiAUPresetEvent.swift; sourceTree = "<group>"; };
+		90830896236AE68C00DBC014 /* MidiChannelMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiChannelMessage.swift; sourceTree = "<group>"; };
+		90830897236AE68C00DBC014 /* EventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProtocol.swift; sourceTree = "<group>"; };
+		90830898236AE68C00DBC014 /* MidiRawData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiRawData.swift; sourceTree = "<group>"; };
+		90830899236AE68C00DBC014 /* MidiParameterEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiParameterEvent.swift; sourceTree = "<group>"; };
+		9083089A236AE68C00DBC014 /* EventInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfo.swift; sourceTree = "<group>"; };
+		9083089C236AE68C00DBC014 /* MidiTimeSignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTimeSignature.swift; sourceTree = "<group>"; };
+		9083089D236AE68C00DBC014 /* MetaEventProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEventProtocol.swift; sourceTree = "<group>"; };
+		9083089E236AE68C00DBC014 /* MetaEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEvent.swift; sourceTree = "<group>"; };
+		9083089F236AE68C00DBC014 /* MidiLyric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiLyric.swift; sourceTree = "<group>"; };
+		908308A0236AE68C00DBC014 /* MetaEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaEventType.swift; sourceTree = "<group>"; };
+		908308A2236AE68C00DBC014 /* MidiKeySignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiKeySignature.swift; sourceTree = "<group>"; };
+		908308A3236AE68C00DBC014 /* KeySignature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySignature.swift; sourceTree = "<group>"; };
+		908308A4236AE68C00DBC014 /* MidiNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiNote.swift; sourceTree = "<group>"; };
+		908308A5236AE68C00DBC014 /* MidiEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiEventType.swift; sourceTree = "<group>"; };
+		908308A6236AE68C00DBC014 /* MidiEventUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiEventUserData.swift; sourceTree = "<group>"; };
+		908308A7236AE68C00DBC014 /* MidiExtendedTempo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiExtendedTempo.swift; sourceTree = "<group>"; };
+		908308A9236AE68C00DBC014 /* MidiTempoTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTempoTrack.swift; sourceTree = "<group>"; };
+		908308AA236AE68C00DBC014 /* SequenceTrackProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequenceTrackProperty.swift; sourceTree = "<group>"; };
+		908308AB236AE68C00DBC014 /* MidiTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiTrack.swift; sourceTree = "<group>"; };
+		908308AC236AE68C00DBC014 /* MidiNoteTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiNoteTrack.swift; sourceTree = "<group>"; };
+		908308AE236AE68C00DBC014 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		908308AF236AE68C00DBC014 /* Byte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		908308B1236AE68C00DBC014 /* MidiData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiData.swift; sourceTree = "<group>"; };
+		908308B2236AE68C00DBC014 /* HeaderChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderChunk.swift; sourceTree = "<group>"; };
+		908308B3236AE68C00DBC014 /* MidiInfoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiInfoKey.swift; sourceTree = "<group>"; };
+		908308B4236AE68C00DBC014 /* EventIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventIterator.swift; sourceTree = "<group>"; };
+		908308B5236AE68C00DBC014 /* MidiSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MidiSequence.swift; sourceTree = "<group>"; };
+		908308D8236AE72300DBC014 /* Calling.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Calling.mid; sourceTree = "<group>"; };
+		908308D9236AE72300DBC014 /* Belong.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Belong.mid; sourceTree = "<group>"; };
+		908308DA236AE72300DBC014 /* Secrets.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Secrets.mid; sourceTree = "<group>"; };
+		908308DB236AE72300DBC014 /* Amour_tojours.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Amour_tojours.mid; sourceTree = "<group>"; };
+		908308DC236AE72300DBC014 /* Years.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Years.mid; sourceTree = "<group>"; };
+		908308DD236AE72300DBC014 /* Lonely_together.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Lonely_together.mid; sourceTree = "<group>"; };
+		908308DE236AE72400DBC014 /* More_than_you_know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = More_than_you_know.mid; sourceTree = "<group>"; };
+		908308EA236AE94D00DBC014 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		908308EC236AE98100DBC014 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		908308EE236AEAE900DBC014 /* SelectSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSongView.swift; sourceTree = "<group>"; };
+		908308F0236AECB100DBC014 /* SelectTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908308E8236AE82C00DBC014 /* Rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +169,18 @@
 		90830869236AE56C00DBC014 /* DJ Drum */ = {
 			isa = PBXGroup;
 			children = (
+				908308D7236AE6B500DBC014 /* Songs */,
+				9083088C236AE64300DBC014 /* MidiParser */,
 				9083086A236AE56C00DBC014 /* AppDelegate.swift */,
 				9083086C236AE56C00DBC014 /* SceneDelegate.swift */,
+				908308EC236AE98100DBC014 /* Song.swift */,
+				908308EE236AEAE900DBC014 /* SelectSongView.swift */,
+				908308F0236AECB100DBC014 /* SelectTrackView.swift */,
 				9083086E236AE56C00DBC014 /* ContentView.swift */,
 				90830870236AE56D00DBC014 /* Assets.xcassets */,
 				90830875236AE56D00DBC014 /* LaunchScreen.storyboard */,
 				90830878236AE56D00DBC014 /* Info.plist */,
+				908308EA236AE94D00DBC014 /* R.generated.swift */,
 				90830872236AE56D00DBC014 /* Preview Content */,
 			);
 			path = "DJ Drum";
@@ -107,6 +203,124 @@
 			path = "DJ DrumTests";
 			sourceTree = "<group>";
 		};
+		9083088C236AE64300DBC014 /* MidiParser */ = {
+			isa = PBXGroup;
+			children = (
+				9083088D236AE68C00DBC014 /* Error */,
+				9083088F236AE68C00DBC014 /* Instrument */,
+				908308B0236AE68C00DBC014 /* MidiData */,
+				90830893236AE68C00DBC014 /* MidiEvent */,
+				908308A8236AE68C00DBC014 /* MidiTrack */,
+				908308AD236AE68C00DBC014 /* Util */,
+			);
+			path = MidiParser;
+			sourceTree = "<group>";
+		};
+		9083088D236AE68C00DBC014 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				9083088E236AE68C00DBC014 /* MidiError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		9083088F236AE68C00DBC014 /* Instrument */ = {
+			isa = PBXGroup;
+			children = (
+				90830890236AE68C00DBC014 /* MidiPatch.swift */,
+				90830891236AE68C00DBC014 /* GMPatch.swift */,
+				90830892236AE68C00DBC014 /* PatchFamily.swift */,
+			);
+			path = Instrument;
+			sourceTree = "<group>";
+		};
+		90830893236AE68C00DBC014 /* MidiEvent */ = {
+			isa = PBXGroup;
+			children = (
+				90830894236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift */,
+				90830895236AE68C00DBC014 /* MidiAUPresetEvent.swift */,
+				90830896236AE68C00DBC014 /* MidiChannelMessage.swift */,
+				90830897236AE68C00DBC014 /* EventProtocol.swift */,
+				90830898236AE68C00DBC014 /* MidiRawData.swift */,
+				90830899236AE68C00DBC014 /* MidiParameterEvent.swift */,
+				9083089A236AE68C00DBC014 /* EventInfo.swift */,
+				9083089B236AE68C00DBC014 /* Meta */,
+				908308A4236AE68C00DBC014 /* MidiNote.swift */,
+				908308A5236AE68C00DBC014 /* MidiEventType.swift */,
+				908308A6236AE68C00DBC014 /* MidiEventUserData.swift */,
+				908308A7236AE68C00DBC014 /* MidiExtendedTempo.swift */,
+			);
+			path = MidiEvent;
+			sourceTree = "<group>";
+		};
+		9083089B236AE68C00DBC014 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				9083089C236AE68C00DBC014 /* MidiTimeSignature.swift */,
+				9083089D236AE68C00DBC014 /* MetaEventProtocol.swift */,
+				9083089E236AE68C00DBC014 /* MetaEvent.swift */,
+				9083089F236AE68C00DBC014 /* MidiLyric.swift */,
+				908308A0236AE68C00DBC014 /* MetaEventType.swift */,
+				908308A1236AE68C00DBC014 /* KeySignature */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		908308A1236AE68C00DBC014 /* KeySignature */ = {
+			isa = PBXGroup;
+			children = (
+				908308A2236AE68C00DBC014 /* MidiKeySignature.swift */,
+				908308A3236AE68C00DBC014 /* KeySignature.swift */,
+			);
+			path = KeySignature;
+			sourceTree = "<group>";
+		};
+		908308A8236AE68C00DBC014 /* MidiTrack */ = {
+			isa = PBXGroup;
+			children = (
+				908308A9236AE68C00DBC014 /* MidiTempoTrack.swift */,
+				908308AA236AE68C00DBC014 /* SequenceTrackProperty.swift */,
+				908308AB236AE68C00DBC014 /* MidiTrack.swift */,
+				908308AC236AE68C00DBC014 /* MidiNoteTrack.swift */,
+			);
+			path = MidiTrack;
+			sourceTree = "<group>";
+		};
+		908308AD236AE68C00DBC014 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				908308AE236AE68C00DBC014 /* Util.swift */,
+				908308AF236AE68C00DBC014 /* Byte.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		908308B0236AE68C00DBC014 /* MidiData */ = {
+			isa = PBXGroup;
+			children = (
+				908308B1236AE68C00DBC014 /* MidiData.swift */,
+				908308B2236AE68C00DBC014 /* HeaderChunk.swift */,
+				908308B3236AE68C00DBC014 /* MidiInfoKey.swift */,
+				908308B4236AE68C00DBC014 /* EventIterator.swift */,
+				908308B5236AE68C00DBC014 /* MidiSequence.swift */,
+			);
+			path = MidiData;
+			sourceTree = "<group>";
+		};
+		908308D7236AE6B500DBC014 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				908308DB236AE72300DBC014 /* Amour_tojours.mid */,
+				908308D9236AE72300DBC014 /* Belong.mid */,
+				908308D8236AE72300DBC014 /* Calling.mid */,
+				908308DD236AE72300DBC014 /* Lonely_together.mid */,
+				908308DE236AE72400DBC014 /* More_than_you_know.mid */,
+				908308DA236AE72300DBC014 /* Secrets.mid */,
+				908308DC236AE72300DBC014 /* Years.mid */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90830886236AE56D00DBC014 /* Build configuration list for PBXNativeTarget "DJ Drum" */;
 			buildPhases = (
+				908308E9236AE8FA00DBC014 /* R.Swift */,
 				90830863236AE56C00DBC014 /* Sources */,
 				90830864236AE56C00DBC014 /* Frameworks */,
 				90830865236AE56C00DBC014 /* Resources */,
@@ -123,6 +338,9 @@
 			dependencies = (
 			);
 			name = "DJ Drum";
+			packageProductDependencies = (
+				908308E7236AE82C00DBC014 /* Rswift */,
+			);
 			productName = "DJ Drum";
 			productReference = 90830867236AE56C00DBC014 /* DJ Drum.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +391,9 @@
 				Base,
 			);
 			mainGroup = 9083085E236AE56C00DBC014;
+			packageReferences = (
+				908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */,
+			);
 			productRefGroup = 90830868236AE56C00DBC014 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,9 +409,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908308E1236AE72400DBC014 /* Secrets.mid in Resources */,
 				90830877236AE56D00DBC014 /* LaunchScreen.storyboard in Resources */,
+				908308E2236AE72400DBC014 /* Amour_tojours.mid in Resources */,
+				908308E4236AE72400DBC014 /* Lonely_together.mid in Resources */,
+				908308DF236AE72400DBC014 /* Calling.mid in Resources */,
+				908308E0236AE72400DBC014 /* Belong.mid in Resources */,
+				908308E3236AE72400DBC014 /* Years.mid in Resources */,
 				90830874236AE56D00DBC014 /* Preview Assets.xcassets in Resources */,
 				90830871236AE56D00DBC014 /* Assets.xcassets in Resources */,
+				908308E5236AE72400DBC014 /* More_than_you_know.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,14 +431,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		908308E9236AE8FA00DBC014 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nrswift generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90830863236AE56C00DBC014 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */,
+				908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */,
+				908308D1236AE68C00DBC014 /* Byte.swift in Sources */,
 				9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */,
+				908308C7236AE68C00DBC014 /* KeySignature.swift in Sources */,
+				908308BA236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift in Sources */,
+				908308D2236AE68C00DBC014 /* MidiData.swift in Sources */,
+				908308CC236AE68C00DBC014 /* MidiTempoTrack.swift in Sources */,
+				908308F1236AECB100DBC014 /* SelectTrackView.swift in Sources */,
+				908308C9236AE68C00DBC014 /* MidiEventType.swift in Sources */,
+				908308D0236AE68C00DBC014 /* Util.swift in Sources */,
+				908308EB236AE94D00DBC014 /* R.generated.swift in Sources */,
 				9083086D236AE56C00DBC014 /* SceneDelegate.swift in Sources */,
+				908308C8236AE68C00DBC014 /* MidiNote.swift in Sources */,
 				9083086F236AE56C00DBC014 /* ContentView.swift in Sources */,
+				908308ED236AE98100DBC014 /* Song.swift in Sources */,
+				908308BD236AE68C00DBC014 /* EventProtocol.swift in Sources */,
+				908308D4236AE68C00DBC014 /* MidiInfoKey.swift in Sources */,
+				908308C1236AE68C00DBC014 /* MidiTimeSignature.swift in Sources */,
+				908308BF236AE68C00DBC014 /* MidiParameterEvent.swift in Sources */,
+				908308C0236AE68C00DBC014 /* EventInfo.swift in Sources */,
+				908308B6236AE68C00DBC014 /* MidiError.swift in Sources */,
+				908308D3236AE68C00DBC014 /* HeaderChunk.swift in Sources */,
+				908308BB236AE68C00DBC014 /* MidiAUPresetEvent.swift in Sources */,
+				908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */,
+				908308EF236AEAE900DBC014 /* SelectSongView.swift in Sources */,
+				908308B8236AE68C00DBC014 /* GMPatch.swift in Sources */,
+				908308C5236AE68C00DBC014 /* MetaEventType.swift in Sources */,
+				908308C4236AE68C00DBC014 /* MidiLyric.swift in Sources */,
+				908308C3236AE68C00DBC014 /* MetaEvent.swift in Sources */,
+				908308B7236AE68C00DBC014 /* MidiPatch.swift in Sources */,
+				908308CD236AE68C00DBC014 /* SequenceTrackProperty.swift in Sources */,
+				908308C2236AE68C00DBC014 /* MetaEventProtocol.swift in Sources */,
+				908308B9236AE68C00DBC014 /* PatchFamily.swift in Sources */,
+				908308CB236AE68C00DBC014 /* MidiExtendedTempo.swift in Sources */,
+				908308D5236AE68C00DBC014 /* EventIterator.swift in Sources */,
+				908308BE236AE68C00DBC014 /* MidiRawData.swift in Sources */,
+				908308D6236AE68C00DBC014 /* MidiSequence.swift in Sources */,
+				908308CE236AE68C00DBC014 /* MidiTrack.swift in Sources */,
+				908308C6236AE68C00DBC014 /* MidiKeySignature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +761,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		908308E7236AE82C00DBC014 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9083085F236AE56C00DBC014 /* Project object */;
 }
