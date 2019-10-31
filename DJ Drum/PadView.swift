@@ -9,18 +9,17 @@
 import SwiftUI
 
 struct PadView: View {
-    let pad: Int
-    let octave: Int
-    let note: MidiNote
+    let isActive: Bool
     
     var body: some View {
         Circle()
-        .foregroundColor(note.color(pad: pad, octave: octave))
+            .aspectRatio(contentMode: .fit)
+            .foregroundColor(isActive ? .blue : .gray)
     }
 }
 
 struct PadView_Previews: PreviewProvider {
     static var previews: some View {
-        PadView(pad: 0, octave: 5, note: MidiNote(timeStamp: 0, duration: 0, note: 60, velocity: 128, channel: 0))
+        PadView(isActive: true)
     }
 }

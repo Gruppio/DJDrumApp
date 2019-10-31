@@ -9,48 +9,43 @@
 import SwiftUI
 
 struct TutorialView: View {
-    let track: MidiNoteTrack
-    @State var octave = 5
-    @State var noteIndex = 0
-    
-    var note: MidiNote {
-        guard noteIndex >= 0 else { return track.first! }
-        guard noteIndex < track.count else { return track.last! }
-        return track[noteIndex]
-    }
+    @ObservedObject var viewModel: TutorialViewModel
     
     var body: some View {
-        NavigationView {
-            VStack {
+        VStack {
+            DrumView(drumState: viewModel.getDrumState())
+            Spacer()
+            
+            VStack(alignment: .leading) {
+                Text("Current Octaves: " + viewModel.currentOctavesDescription)
+                Text("All Octaves: " + viewModel.allOctavesDescription)
                 HStack {
-                    PadView(pad: 0, octave: octave, note: note)
-                    PadView(pad: 1, octave: octave, note: note)
-                    PadView(pad: 2, octave: octave, note: note)
-                    PadView(pad: 3, octave: octave, note: note)
-                    PadView(pad: 4, octave: octave, note: note)
-                    PadView(pad: 5, octave: octave, note: note)
-                }.padding()
-                
-                HStack {
-                    PadView(pad: 6, octave: octave, note: note)
-                    PadView(pad: 7, octave: octave, note: note)
-                    PadView(pad: 8, octave: octave, note: note)
-                    PadView(pad: 9, octave: octave, note: note)
-                    PadView(pad: 10, octave: octave, note: note)
-                    PadView(pad: 11, octave: octave, note: note)
-                }.padding()
-                
-                HStack {
-                    PadView(pad: 12, octave: octave, note: note)
-                    PadView(pad: 13, octave: octave, note: note)
-                    PadView(pad: 14, octave: octave, note: note)
-                    PadView(pad: 15, octave: octave, note: note)
-                    PadView(pad: 16, octave: octave, note: note)
-                    PadView(pad: 17, octave: octave, note: note)
-                }.padding()
-            }
-            .padding()
-        }
+                    Button(action: viewModel.decreaseOctave) {
+                        Image(systemName: "minus.circle")
+                    }
+                    Text("\(viewModel.octave)")
+                    Button(action: viewModel.increaseOctave) {
+                        Image(systemName: "plus.circle")
+                    }
+                    Spacer()
+                    
+                    Button(action: viewModel.reset) {
+                        Image(systemName: "arrow.counterclockwise.circle")
+                    }
+                    if viewModel.isPlaying {
+                        Button(action: viewModel.pause) {
+                            Image(systemName: "pause.circle")
+                        }
+                    } else {
+                        Button(action: viewModel.play) {
+                            Image(systemName: "play.circle")
+                        }
+                    }
+                }.font(.largeTitle)
+                //Slider(value: $viewModel.timeStamp, from: Float64(0.0), to: Float64(100.0))
+                Slider(value: $viewModel.timeStamp, in: Float64(0.0)...viewModel.duration, step: 0.5)
+            }.padding()
+        }.navigationBarTitle("Tutorial")
     }
 }
 
@@ -62,6 +57,6 @@ struct DrumPadView_Previews: PreviewProvider {
     }
     
     static var previews: some View {
-        TutorialView(track: track)
+        TutorialView(viewModel: TutorialViewModel(track: track))
     }
 }
