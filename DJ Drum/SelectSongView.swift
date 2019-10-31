@@ -15,7 +15,7 @@ struct SelectSongView: View {
                 NavigationLink(destination: SelectTrackView(song: song)) {
                     Text(song.title)
                 }
-            }.navigationBarTitle(Text("Select a Song"))
+            }.navigationBarTitle(Text("Select Song"))
         }
     }
 }

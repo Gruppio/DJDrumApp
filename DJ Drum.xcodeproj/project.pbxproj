@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083086A236AE56C00DBC014 /* AppDelegate.swift */; };
 		9083086D236AE56C00DBC014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083086C236AE56C00DBC014 /* SceneDelegate.swift */; };
-		9083086F236AE56C00DBC014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083086E236AE56C00DBC014 /* ContentView.swift */; };
 		90830871236AE56D00DBC014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90830870236AE56D00DBC014 /* Assets.xcassets */; };
 		90830874236AE56D00DBC014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90830873236AE56D00DBC014 /* Preview Assets.xcassets */; };
 		90830877236AE56D00DBC014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90830875236AE56D00DBC014 /* LaunchScreen.storyboard */; };
@@ -59,6 +58,9 @@
 		908308ED236AE98100DBC014 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308EC236AE98100DBC014 /* Song.swift */; };
 		908308EF236AEAE900DBC014 /* SelectSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308EE236AEAE900DBC014 /* SelectSongView.swift */; };
 		908308F1236AECB100DBC014 /* SelectTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308F0236AECB100DBC014 /* SelectTrackView.swift */; };
+		908308F3236AF0BE00DBC014 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308F2236AF0BE00DBC014 /* TutorialView.swift */; };
+		908308F5236AF35C00DBC014 /* MidiNote+Pad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308F4236AF35C00DBC014 /* MidiNote+Pad.swift */; };
+		908308F7236AF84000DBC014 /* PadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908308F6236AF84000DBC014 /* PadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +77,6 @@
 		90830867236AE56C00DBC014 /* DJ Drum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Drum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9083086A236AE56C00DBC014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9083086C236AE56C00DBC014 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9083086E236AE56C00DBC014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90830870236AE56D00DBC014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90830873236AE56D00DBC014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90830876236AE56D00DBC014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,6 +128,9 @@
 		908308EC236AE98100DBC014 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		908308EE236AEAE900DBC014 /* SelectSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSongView.swift; sourceTree = "<group>"; };
 		908308F0236AECB100DBC014 /* SelectTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrackView.swift; sourceTree = "<group>"; };
+		908308F2236AF0BE00DBC014 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		908308F4236AF35C00DBC014 /* MidiNote+Pad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MidiNote+Pad.swift"; sourceTree = "<group>"; };
+		908308F6236AF84000DBC014 /* PadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,12 +180,14 @@
 				908308EC236AE98100DBC014 /* Song.swift */,
 				908308EE236AEAE900DBC014 /* SelectSongView.swift */,
 				908308F0236AECB100DBC014 /* SelectTrackView.swift */,
-				9083086E236AE56C00DBC014 /* ContentView.swift */,
+				908308F2236AF0BE00DBC014 /* TutorialView.swift */,
+				908308F6236AF84000DBC014 /* PadView.swift */,
 				90830870236AE56D00DBC014 /* Assets.xcassets */,
 				90830875236AE56D00DBC014 /* LaunchScreen.storyboard */,
 				90830878236AE56D00DBC014 /* Info.plist */,
 				908308EA236AE94D00DBC014 /* R.generated.swift */,
 				90830872236AE56D00DBC014 /* Preview Content */,
+				908308F4236AF35C00DBC014 /* MidiNote+Pad.swift */,
 			);
 			path = "DJ Drum";
 			sourceTree = "<group>";
@@ -450,7 +456,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nrswift generate \"$SRCROOT/R.generated.swift\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif hash rswift 2>/dev/null; then\n    rswift generate \"$SRCROOT/R.generated.swift\"\nelse\n    echo \"RSwift not installed, you cannot add songs\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -459,10 +465,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908308F5236AF35C00DBC014 /* MidiNote+Pad.swift in Sources */,
 				908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */,
 				908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */,
 				908308D1236AE68C00DBC014 /* Byte.swift in Sources */,
 				9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */,
+				908308F3236AF0BE00DBC014 /* TutorialView.swift in Sources */,
 				908308C7236AE68C00DBC014 /* KeySignature.swift in Sources */,
 				908308BA236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift in Sources */,
 				908308D2236AE68C00DBC014 /* MidiData.swift in Sources */,
@@ -473,7 +481,6 @@
 				908308EB236AE94D00DBC014 /* R.generated.swift in Sources */,
 				9083086D236AE56C00DBC014 /* SceneDelegate.swift in Sources */,
 				908308C8236AE68C00DBC014 /* MidiNote.swift in Sources */,
-				9083086F236AE56C00DBC014 /* ContentView.swift in Sources */,
 				908308ED236AE98100DBC014 /* Song.swift in Sources */,
 				908308BD236AE68C00DBC014 /* EventProtocol.swift in Sources */,
 				908308D4236AE68C00DBC014 /* MidiInfoKey.swift in Sources */,
@@ -484,6 +491,7 @@
 				908308D3236AE68C00DBC014 /* HeaderChunk.swift in Sources */,
 				908308BB236AE68C00DBC014 /* MidiAUPresetEvent.swift in Sources */,
 				908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */,
+				908308F7236AF84000DBC014 /* PadView.swift in Sources */,
 				908308EF236AEAE900DBC014 /* SelectSongView.swift in Sources */,
 				908308B8236AE68C00DBC014 /* GMPatch.swift in Sources */,
 				908308C5236AE68C00DBC014 /* MetaEventType.swift in Sources */,
