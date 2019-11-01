@@ -9,11 +9,12 @@
 import SwiftUI
 
 struct SelectSongView: View {
+    let songProvider = SongProvider()
     var body: some View {
         NavigationView {
-            List(Song.allCases) { song in
-                NavigationLink(destination: SelectTrackView(song: song)) {
-                    Text(song.title)
+            List(songProvider.allSongs, id: \.absoluteString) { song in
+                NavigationLink(destination: SelectTrackView(url: song)) {
+                    Text(self.songProvider.getTitle(for: song))
                 }
             }.navigationBarTitle(Text("Select Song"))
         }

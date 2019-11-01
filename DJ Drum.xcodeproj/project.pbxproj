@@ -85,6 +85,7 @@
 		90830929236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */; };
 		9083092A236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */; };
 		9083092B236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */; };
+		9083092D236BA85900DBC014 /* SongProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083092C236BA85900DBC014 /* SongProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 		90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Heaven_Chris_Martin.mid"; sourceTree = "<group>"; };
 		90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
 		90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Wake_Me_Up_Avicii.mid; sourceTree = "<group>"; };
+		9083092C236BA85900DBC014 /* SongProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				908308D7236AE6B500DBC014 /* Songs */,
 				9083088C236AE64300DBC014 /* MidiParser */,
 				9083086A236AE56C00DBC014 /* AppDelegate.swift */,
+				9083092C236BA85900DBC014 /* SongProvider.swift */,
 				9083086C236AE56C00DBC014 /* SceneDelegate.swift */,
 				908308EC236AE98100DBC014 /* Song.swift */,
 				908308EE236AEAE900DBC014 /* SelectSongView.swift */,
@@ -576,6 +579,7 @@
 				908308FF236B7CD800DBC014 /* TutorialViewModel.swift in Sources */,
 				90830905236BA50300DBC014 /* SlowControlView.swift in Sources */,
 				908308C8236AE68C00DBC014 /* MidiNote.swift in Sources */,
+				9083092D236BA85900DBC014 /* SongProvider.swift in Sources */,
 				908308ED236AE98100DBC014 /* Song.swift in Sources */,
 				908308BD236AE68C00DBC014 /* EventProtocol.swift in Sources */,
 				908308D4236AE68C00DBC014 /* MidiInfoKey.swift in Sources */,

@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct SelectTrackView: View {
-    let song: Song
+    let url: URL
     let midiData: MidiData
     
-    init(song: Song) {
-        self.song = song
+    init(url: URL) {
+        self.url = url
         self.midiData = MidiData()
-        self.midiData.load(data: song.data)
+        if let data = try? Data(contentsOf: url) {
+            self.midiData.load(data: data)
+        }
     }
     
     var body: some View {
@@ -24,11 +26,5 @@ struct SelectTrackView: View {
                 Text(track.trackName)
             }
         }.navigationBarTitle(Text("Select Track"))
-    }
-}
-
-struct SelectTrackView_Previews: PreviewProvider {
-    static var previews: some View {
-        SelectTrackView(song: Song.secrets)
     }
 }
