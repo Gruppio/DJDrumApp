@@ -181,6 +181,7 @@
 		90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
 		90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Wake_Me_Up_Avicii.mid; sourceTree = "<group>"; };
 		9083092C236BA85900DBC014 /* SongProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongProvider.swift; sourceTree = "<group>"; };
+		9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DJ Drum.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +224,7 @@
 		90830869236AE56C00DBC014 /* DJ Drum */ = {
 			isa = PBXGroup;
 			children = (
+				9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */,
 				908308D7236AE6B500DBC014 /* Songs */,
 				9083088C236AE64300DBC014 /* MidiParser */,
 				9083086A236AE56C00DBC014 /* AppDelegate.swift */,
@@ -758,7 +760,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DJ Drum/DJ Drum.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DJ Drum/Preview Content\"";
 				DEVELOPMENT_TEAM = 975R26MN46;
 				ENABLE_PREVIEWS = YES;
@@ -769,6 +773,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michelegruppioni.DJ-Drum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -778,7 +783,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DJ Drum/DJ Drum.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DJ Drum/Preview Content\"";
 				DEVELOPMENT_TEAM = 975R26MN46;
 				ENABLE_PREVIEWS = YES;
@@ -789,6 +796,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michelegruppioni.DJ-Drum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

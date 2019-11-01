@@ -23,7 +23,7 @@ class TutorialViewModel: ObservableObject {
     let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
     
     var base: Int {
-        (octave + 2) * 12
+        (octave + 1) * 12
     }
     
     var duration: Float64 {
@@ -101,7 +101,9 @@ class TutorialViewModel: ObservableObject {
         let displayableNotes = currentNotes
             .map { Int($0.note) - base }
             .filter { $0 >= 0 && $0 < numberOfPads }
-        
+//        print(currentNotes.map { Int($0.note) }.map { String($0) }.joined(separator: ","))
+//        print(displayableNotes.map { String($0) }.joined(separator: ","))
+ //       print("---")
         return DrumState(activeNotesIndex: Array(displayableNotes))
     }
 }
