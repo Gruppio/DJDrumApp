@@ -7,10 +7,19 @@
 //
 
 import Foundation
+import AudioToolbox
 
 extension MidiNote {
     var octave: Int {
         if [21, 22, 23].contains(note) { return -2 }
         return Int(floor((Float(note) - 24) / 12)) + 1
+    }
+    
+    var midiNoteMessage: MIDINoteMessage {
+        MIDINoteMessage(channel: channel,
+                        note: note,
+                        velocity: velocity,
+                        releaseVelocity: releaseVelocity,
+                        duration: duration)
     }
 }
