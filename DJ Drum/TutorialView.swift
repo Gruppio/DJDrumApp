@@ -16,6 +16,16 @@ struct TutorialView: View {
             DrumView(drumState: viewModel.getDrumState())
             Spacer()
             
+            VStack {
+                Text(viewModel.currentOctavesDescription)
+                    .font(.largeTitle)                    .foregroundColor(viewModel.currentOctaveDescriptionColor)
+                
+                Text(viewModel.allOctavesDescription)
+                    .font(.title)
+            }
+            
+            Spacer()
+            
             HStack(alignment: .lastTextBaseline) {
                 OctavesView(viewModel: viewModel)
                 Spacer()
@@ -24,24 +34,29 @@ struct TutorialView: View {
                 VStack {
                     Button(action: viewModel.reset) {
                         Image(systemName: "arrow.counterclockwise.circle")
-                        .font(.largeTitle)
+                            .font(.largeTitle)
                     }.padding()
                     if viewModel.isPlaying {
                         Button(action: viewModel.pause) {
                             Image(systemName: "pause.circle")
-                            .font(.largeTitle)
+                                .font(.largeTitle)
                         }
                     } else {
                         Button(action: viewModel.play) {
                             Image(systemName: "play.circle")
-                            .font(.largeTitle)
+                                .font(.largeTitle)
                         }
                     }
                 }
-            }.padding()
+            }.padding(.horizontal)
             
-            Slider(value: $viewModel.timeStamp, in: Float64(0.0)...viewModel.duration, step: 0.5)
-            .padding()
+            HStack {
+                Slider(value: $viewModel.timeStamp, in: Float64(0.0)...viewModel.duration, step: 0.5)
+                
+                Text(viewModel.timeStampDescription)
+                    .font(.title)
+                    .padding(.horizontal)
+            }.padding(.horizontal)
             
         }.navigationBarTitle("Tutorial")
     }

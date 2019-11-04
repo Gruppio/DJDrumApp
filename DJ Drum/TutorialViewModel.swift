@@ -8,15 +8,21 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 class TutorialViewModel: ObservableObject {
     private let numberOfPads = 18
     private static let timeInterval: Float64 = 0.2
     let track: MidiNoteTrack
+    let player: MidiNotesPlayer
     @Published var timeStamp: Float64 = 0
     @Published var octave: Int = 4
     @Published var isPlaying = true
-    @Published var slowFactor: Int = 1
+    @Published var slowFactor: Int = 1 {
+        didSet {
+            player.set(speed: 1.0 / Float64(slowFactor))
+        }
+    }
     private var iterationCount = 1
     var timerSubscription: AnyCancellable?
     var cancellableTimerPublisher: Cancellable?
@@ -31,6 +37,10 @@ class TutorialViewModel: ObservableObject {
         return lastNote.timeStamp + Double(lastNote.duration)
     }
     
+    var timeStampDescription: String {
+        String(format: "%.1f", Double(timeStamp))
+    }
+    
     var currentNotes: [MidiNote] {
         track.notes(from: timeStamp, to: timeStamp + TutorialViewModel.timeInterval)
     }
@@ -39,8 +49,22 @@ class TutorialViewModel: ObservableObject {
         uniqueOctaves(for: track.notes)
     }
     
+    var currentOctaves: [Int] {
+        uniqueOctaves(for: currentNotes)
+    }
+    
     var currentOctavesDescription: String {
-        uniqueOctaves(for: currentNotes).map { String($0) }.joined(separator: ",")
+        currentOctaves.map { String($0) }.joined(separator: ",")
+    }
+    
+    var currentOctaveDescriptionColor: Color {
+        guard currentOctaves.count < 2 else { return .red }
+        
+        if currentOctaves.count == 1 && currentOctaves.first! == octave {
+            return .green
+        }
+        
+        return .orange
     }
     
     var allOctavesDescription: String {
@@ -49,6 +73,8 @@ class TutorialViewModel: ObservableObject {
     
     init(track: MidiNoteTrack) {
         self.track = track
+        self.player = MidiNotesPlayer(midiNotes: track.notes)
+        
         timerSubscription = timerPublisher
             .sink { [weak self] receivedTimeStamp in
                 guard let self = self else { return }
@@ -68,10 +94,12 @@ class TutorialViewModel: ObservableObject {
     
     func play() {
         isPlaying = true
+        player.play()
     }
     
     func pause() {
         isPlaying = false
+        player.pause()
     }
     
     func increaseSlowFactor() {
@@ -95,6 +123,7 @@ class TutorialViewModel: ObservableObject {
     
     func reset() {
         timeStamp = 0
+        player.reset()
     }
     
     func getDrumState() -> DrumState {

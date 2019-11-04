@@ -11,15 +11,8 @@ import SwiftUI
 struct OctavesView: View {
     @ObservedObject var viewModel: TutorialViewModel
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
-                Text("All: ").font(.headline)
-                Text(viewModel.allOctavesDescription).font(.title)
-            }
-            HStack {
-                Text("Current: ").font(.headline)
-                Text(viewModel.currentOctavesDescription).font(.title)
-            }
+        VStack(alignment: .center) {
+            Text("Octave").font(.headline)
             HStack {
                 Button(action: viewModel.decreaseOctave) {
                     Image(systemName: "minus.circle")
