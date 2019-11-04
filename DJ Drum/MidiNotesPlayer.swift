@@ -54,6 +54,7 @@ class MidiNotesPlayer {
             var midiNoteMessage = note.midiNoteMessage
             MusicTrackNewMIDINoteEvent(track, note.timeStamp, &midiNoteMessage)
         }
+        MusicPlayerSetSequence(musicPlayer, sequence)
     }
     
     func set(speed: Float64) {

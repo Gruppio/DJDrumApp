@@ -17,7 +17,7 @@ class TutorialViewModel: ObservableObject {
     let player: MidiNotesPlayer
     @Published var timeStamp: Float64 = 0
     @Published var octave: Int = 4
-    @Published var isPlaying = true
+    @Published var isPlaying = false
     @Published var slowFactor: Int = 1 {
         didSet {
             player.set(speed: 1.0 / Float64(slowFactor))
@@ -54,7 +54,10 @@ class TutorialViewModel: ObservableObject {
     }
     
     var currentOctavesDescription: String {
-        currentOctaves.map { String($0) }.joined(separator: ",")
+        currentOctaves
+            .map { String($0) }
+            .joined(separator: ",")
+            .appending(" ")
     }
     
     var currentOctaveDescriptionColor: Color {
@@ -85,7 +88,10 @@ class TutorialViewModel: ObservableObject {
         }
         cancellableTimerPublisher = timerPublisher.connect()
         octave = allOctaves.first ?? 4
-        play()
+        player.set(speed: 0.5)
+        if isPlaying {
+            play()
+        }
     }
     
     func uniqueOctaves(for notes: [MidiNote]) -> [Int] {
