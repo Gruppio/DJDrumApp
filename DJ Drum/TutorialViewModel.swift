@@ -15,15 +15,18 @@ class TutorialViewModel: ObservableObject {
     private static let timeInterval: Float64 = 0.2
     let track: MidiNoteTrack
     let player: MidiNotesPlayer
-    @Published var timeStamp: Float64 = 0
+    @Published var timeStamp: Float64 = 0 {
+        didSet {
+            player.set(timeStamp: timeStamp)
+        }
+    }
     @Published var octave: Int = 4
     @Published var isPlaying = false
     @Published var slowFactor: Int = 1 {
         didSet {
-            player.set(speed: 1.0 / Float64(slowFactor))
+            player.set(speed: 0.5 / Float64(slowFactor))
         }
     }
-    private var iterationCount = 1
     var timerSubscription: AnyCancellable?
     var cancellableTimerPublisher: Cancellable?
     let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
@@ -79,16 +82,15 @@ class TutorialViewModel: ObservableObject {
         self.player = MidiNotesPlayer(midiNotes: track.notes)
         
         timerSubscription = timerPublisher
-            .sink { [weak self] receivedTimeStamp in
+            .sink { [weak self] _ in
                 guard let self = self else { return }
                 guard self.isPlaying else { return }
-                self.iterationCount += 1
-                guard self.iterationCount % self.slowFactor == 0 else { return }
-                self.timeStamp += TutorialViewModel.timeInterval
+                self.timeStamp += (TutorialViewModel.timeInterval / Float64(self.slowFactor) )
         }
         cancellableTimerPublisher = timerPublisher.connect()
         octave = allOctaves.first ?? 4
         player.set(speed: 0.5)
+        
         if isPlaying {
             play()
         }

@@ -21,9 +21,9 @@ struct SelectTrackView: View {
     }
     
     var body: some View {
-        List(midiData.noteTracks, id: \.trackName) { track in
+        List(midiData.noteTracks, id: \.title) { track in
             NavigationLink(destination: TutorialView(viewModel: TutorialViewModel(track: track))) {
-                Text(track.trackName)
+                Text(track.title)
             }
         }.navigationBarTitle(Text("Select Track"))
     }

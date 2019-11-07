@@ -73,20 +73,32 @@
 		9083091C236BA6BE00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */; };
 		9083091D236BA6BE00DBC014 /* Avicii_-_SOS.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */; };
 		9083091E236BA6BE00DBC014 /* Sebastian_Ingrosso_-_Reload.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */; };
-		9083091F236BA6BE00DBC014 /* On_My_Way_-_AxwellIngrosso.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */; };
 		90830920236BA6BE00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */; };
 		90830921236BA6BE00DBC014 /* Avicii_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */; };
-		90830922236BA6BE00DBC014 /* Swedish_House_Mafia_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */; };
 		90830923236BA6BE00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */; };
 		90830924236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */; };
-		90830925236BA6BE00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */; };
 		90830926236BA6BE00DBC014 /* Avicii_levels.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830913236BA6BD00DBC014 /* Avicii_levels.mid */; };
-		90830927236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */; };
 		90830928236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */; };
-		90830929236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */; };
-		9083092A236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */; };
 		9083092B236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */; };
 		9083092D236BA85900DBC014 /* SongProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083092C236BA85900DBC014 /* SongProvider.swift */; };
+		90B79ED22374E0A400A377E1 /* Avicii__Fade_Into_Darkness.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */; };
+		90B79ED32374E0A400A377E1 /* High_on_Life.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC12374E0A300A377E1 /* High_on_Life.mid */; };
+		90B79ED42374E0A400A377E1 /* Animals_-_Martin_Garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */; };
+		90B79ED52374E0A400A377E1 /* Animals-Martin_Garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */; };
+		90B79ED62374E0A400A377E1 /* Swedish_House_Mafia_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */; };
+		90B79ED72374E0A400A377E1 /* Waiting_For_Love.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */; };
+		90B79ED82374E0A400A377E1 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */; };
+		90B79ED92374E0A400A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */; };
+		90B79EDA2374E0A400A377E1 /* Marshmello_-_Alone.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */; };
+		90B79EDB2374E0A400A377E1 /* High_on_Life.mscz.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */; };
+		90B79EDC2374E0A400A377E1 /* Levels.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECA2374E0A300A377E1 /* Levels.mid */; };
+		90B79EDD2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */; };
+		90B79EDE2374E0A400A377E1 /* tiesto_written_in_reverse.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */; };
+		90B79EDF2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */; };
+		90B79EE02374E0A400A377E1 /* ALESSO_HEROES.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECE2374E0A400A377E1 /* ALESSO_HEROES.mid */; };
+		90B79EE12374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */; };
+		90B79EE22374E0A400A377E1 /* Red_Lights.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED02374E0A400A377E1 /* Red_Lights.mid */; };
+		90B79EE32374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,21 +181,33 @@
 		90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Lonely_Together_ft._Rita_Ora.mid"; sourceTree = "<group>"; };
 		9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_SOS.mid"; sourceTree = "<group>"; };
 		9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Sebastian_Ingrosso_-_Reload.mid"; sourceTree = "<group>"; };
-		9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "On_My_Way_-_AxwellIngrosso.mid"; sourceTree = "<group>"; };
 		9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "SOS_-_Avicii__Aloe_Blacc.mid"; sourceTree = "<group>"; };
 		9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii_Medley.mid; sourceTree = "<group>"; };
-		9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Swedish_House_Mafia_Medley.mid; sourceTree = "<group>"; };
 		90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Heroes_-Alesso_for_Front_ensemble.mid"; sourceTree = "<group>"; };
 		90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell__Ingrosso_-_Dreamer_ft.mid"; sourceTree = "<group>"; };
-		90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; sourceTree = "<group>"; };
 		90830913236BA6BD00DBC014 /* Avicii_levels.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii_levels.mid; sourceTree = "<group>"; };
-		90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Axwell__Ingrosso_-_Dreamer_ft-2.mid"; sourceTree = "<group>"; };
 		90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Wake_Me_Up_-_Avicii.mid"; sourceTree = "<group>"; };
-		90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Heaven_Chris_Martin.mid"; sourceTree = "<group>"; };
-		90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
 		90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Wake_Me_Up_Avicii.mid; sourceTree = "<group>"; };
 		9083092C236BA85900DBC014 /* SongProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongProvider.swift; sourceTree = "<group>"; };
 		9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DJ Drum.entitlements"; sourceTree = "<group>"; };
+		90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii__Fade_Into_Darkness.mid; sourceTree = "<group>"; };
+		90B79EC12374E0A300A377E1 /* High_on_Life.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = High_on_Life.mid; sourceTree = "<group>"; };
+		90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Animals_-_Martin_Garrix.mid"; sourceTree = "<group>"; };
+		90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Animals-Martin_Garrix.mid"; sourceTree = "<group>"; };
+		90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = Swedish_House_Mafia_Medley.mid; path = ../../../../../../Downloads/Swedish_House_Mafia_Medley.mid; sourceTree = "<group>"; };
+		90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Waiting_For_Love.mid; sourceTree = "<group>"; };
+		90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Avicii_-_Heaven_Chris_Martin.mid"; path = "../../../../../../Downloads/Avicii_-_Heaven_Chris_Martin.mid"; sourceTree = "<group>"; };
+		90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; path = "../../../../../../Downloads/Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; sourceTree = "<group>"; };
+		90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Marshmello_-_Alone.mid"; sourceTree = "<group>"; };
+		90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = High_on_Life.mscz.mid; sourceTree = "<group>"; };
+		90B79ECA2374E0A300A377E1 /* Levels.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Levels.mid; sourceTree = "<group>"; };
+		90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Something_Just_Like_This-The_Chainsmokers.mid"; sourceTree = "<group>"; };
+		90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = tiesto_written_in_reverse.mid; sourceTree = "<group>"; };
+		90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; path = "../../../../../../Downloads/Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
+		90B79ECE2374E0A400A377E1 /* ALESSO_HEROES.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ALESSO_HEROES.mid; sourceTree = "<group>"; };
+		90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Pizza_Orchestral_Martin_garrix.mid; sourceTree = "<group>"; };
+		90B79ED02374E0A400A377E1 /* Red_Lights.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Red_Lights.mid; sourceTree = "<group>"; };
+		90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "On_My_Way_-_AxwellIngrosso.mid"; path = "../../../../../../Downloads/On_My_Way_-_AxwellIngrosso.mid"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,32 +401,44 @@
 		908308D7236AE6B500DBC014 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				90B79ECE2374E0A400A377E1 /* ALESSO_HEROES.mid */,
 				908308DB236AE72300DBC014 /* Amour_tojours.mid */,
-				908308D9236AE72300DBC014 /* Belong.mid */,
-				908308D8236AE72300DBC014 /* Calling.mid */,
-				908308DD236AE72300DBC014 /* Lonely_together.mid */,
-				908308DE236AE72400DBC014 /* More_than_you_know.mid */,
-				908308DA236AE72300DBC014 /* Secrets.mid */,
-				908308DC236AE72300DBC014 /* Years.mid */,
-				90830916236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid */,
+				90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */,
+				90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */,
+				90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */,
+				90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */,
 				90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */,
 				9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */,
-				90830917236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */,
+				90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */,
 				90830913236BA6BD00DBC014 /* Avicii_levels.mid */,
 				9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */,
-				90830914236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid */,
 				90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */,
-				90830912236BA6BD00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */,
+				90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */,
+				908308D9236AE72300DBC014 /* Belong.mid */,
+				908308D8236AE72300DBC014 /* Calling.mid */,
 				90830907236BA6BD00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid */,
 				90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */,
-				9083090C236BA6BD00DBC014 /* On_My_Way_-_AxwellIngrosso.mid */,
+				90B79EC12374E0A300A377E1 /* High_on_Life.mid */,
+				90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */,
+				90B79ECA2374E0A300A377E1 /* Levels.mid */,
+				908308DD236AE72300DBC014 /* Lonely_together.mid */,
+				90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */,
+				908308DE236AE72400DBC014 /* More_than_you_know.mid */,
+				90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */,
+				90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */,
+				90B79ED02374E0A400A377E1 /* Red_Lights.mid */,
 				9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */,
+				908308DA236AE72300DBC014 /* Secrets.mid */,
+				90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */,
 				9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */,
 				90830908236BA6BD00DBC014 /* Sun_Is_Shining.mid */,
-				9083090F236BA6BD00DBC014 /* Swedish_House_Mafia_Medley.mid */,
+				90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */,
+				90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */,
+				90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */,
 				90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */,
 				90830906236BA6BC00DBC014 /* Wake_me_up_Avicii-2.mid */,
 				90830918236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid */,
+				908308DC236AE72300DBC014 /* Years.mid */,
 			);
 			path = Songs;
 			sourceTree = "<group>";
@@ -495,22 +531,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90830929236BA6BE00DBC014 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */,
+				90B79EE02374E0A400A377E1 /* ALESSO_HEROES.mid in Resources */,
 				908308E1236AE72400DBC014 /* Secrets.mid in Resources */,
 				90830877236AE56D00DBC014 /* LaunchScreen.storyboard in Resources */,
 				908308E2236AE72400DBC014 /* Amour_tojours.mid in Resources */,
+				90B79EE22374E0A400A377E1 /* Red_Lights.mid in Resources */,
+				90B79EDF2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */,
 				908308E4236AE72400DBC014 /* Lonely_together.mid in Resources */,
 				90830924236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid in Resources */,
+				90B79ED72374E0A400A377E1 /* Waiting_For_Love.mid in Resources */,
+				90B79EDB2374E0A400A377E1 /* High_on_Life.mscz.mid in Resources */,
+				90B79EDE2374E0A400A377E1 /* tiesto_written_in_reverse.mid in Resources */,
 				90830923236BA6BE00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid in Resources */,
-				90830922236BA6BE00DBC014 /* Swedish_House_Mafia_Medley.mid in Resources */,
-				90830925236BA6BE00DBC014 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */,
+				90B79EE32374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid in Resources */,
 				908308DF236AE72400DBC014 /* Calling.mid in Resources */,
+				90B79EE12374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid in Resources */,
+				90B79ED42374E0A400A377E1 /* Animals_-_Martin_Garrix.mid in Resources */,
 				908308E0236AE72400DBC014 /* Belong.mid in Resources */,
 				90830920236BA6BE00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid in Resources */,
-				9083091F236BA6BE00DBC014 /* On_My_Way_-_AxwellIngrosso.mid in Resources */,
 				9083091E236BA6BE00DBC014 /* Sebastian_Ingrosso_-_Reload.mid in Resources */,
 				9083091C236BA6BE00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid in Resources */,
 				908308E3236AE72400DBC014 /* Years.mid in Resources */,
+				90B79ED82374E0A400A377E1 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */,
+				90B79ED22374E0A400A377E1 /* Avicii__Fade_Into_Darkness.mid in Resources */,
+				90B79ED62374E0A400A377E1 /* Swedish_House_Mafia_Medley.mid in Resources */,
 				90830921236BA6BE00DBC014 /* Avicii_Medley.mid in Resources */,
 				90830926236BA6BE00DBC014 /* Avicii_levels.mid in Resources */,
 				90830919236BA6BE00DBC014 /* Wake_me_up_Avicii-2.mid in Resources */,
@@ -518,12 +562,16 @@
 				9083092B236BA6BE00DBC014 /* Wake_Me_Up_Avicii.mid in Resources */,
 				90830874236AE56D00DBC014 /* Preview Assets.xcassets in Resources */,
 				90830871236AE56D00DBC014 /* Assets.xcassets in Resources */,
+				90B79EDC2374E0A400A377E1 /* Levels.mid in Resources */,
+				90B79EDA2374E0A400A377E1 /* Marshmello_-_Alone.mid in Resources */,
 				9083091B236BA6BE00DBC014 /* Sun_Is_Shining.mid in Resources */,
+				90B79ED52374E0A400A377E1 /* Animals-Martin_Garrix.mid in Resources */,
+				90B79ED32374E0A400A377E1 /* High_on_Life.mid in Resources */,
 				9083091A236BA6BE00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid in Resources */,
-				90830927236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft-2.mid in Resources */,
 				9083091D236BA6BE00DBC014 /* Avicii_-_SOS.mid in Resources */,
+				90B79EDD2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid in Resources */,
 				908308E5236AE72400DBC014 /* More_than_you_know.mid in Resources */,
-				9083092A236BA6BE00DBC014 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */,
+				90B79ED92374E0A400A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

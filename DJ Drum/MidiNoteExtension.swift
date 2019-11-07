@@ -23,3 +23,9 @@ extension MidiNote {
                         duration: duration)
     }
 }
+
+extension MidiNoteTrack {
+    var title: String {
+        trackName.isEmpty ? String(count) : trackName
+    }
+}

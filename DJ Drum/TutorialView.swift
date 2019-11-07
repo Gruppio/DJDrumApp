@@ -59,6 +59,12 @@ struct TutorialView: View {
             }.padding(.horizontal)
             
         }.navigationBarTitle("Tutorial")
+            .onAppear() {
+                self.viewModel.play()
+        }
+            .onDisappear() {
+                self.viewModel.pause()
+        }
     }
 }
 
