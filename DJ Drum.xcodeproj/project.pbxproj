@@ -82,6 +82,7 @@
 		9083092D236BA85900DBC014 /* SongProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083092C236BA85900DBC014 /* SongProvider.swift */; };
 		90B0F99F23B34BEC0063BBE4 /* TestSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0F99E23B34BEC0063BBE4 /* TestSong.swift */; };
 		90B0F9A123B34C4F0063BBE4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0F9A023B34C4F0063BBE4 /* Note.swift */; };
+		90B0F9A823B36D1E0063BBE4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0F9A723B36D1E0063BBE4 /* MainView.swift */; };
 		90B79ED22374E0A400A377E1 /* Avicii__Fade_Into_Darkness.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */; };
 		90B79ED32374E0A400A377E1 /* High_on_Life.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC12374E0A300A377E1 /* High_on_Life.mid */; };
 		90B79ED42374E0A400A377E1 /* Animals_-_Martin_Garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */; };
@@ -241,7 +242,7 @@
 		908308DC236AE72300DBC014 /* Years.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Years.mid; sourceTree = "<group>"; };
 		908308DD236AE72300DBC014 /* Lonely_together.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Lonely_together.mid; sourceTree = "<group>"; };
 		908308DE236AE72400DBC014 /* More_than_you_know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = More_than_you_know.mid; sourceTree = "<group>"; };
-		908308EA236AE94D00DBC014 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "DJ Drum/Resources/R.generated.swift"; sourceTree = SOURCE_ROOT; };
+		908308EA236AE94D00DBC014 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "DJ Drum/R.generated.swift"; sourceTree = SOURCE_ROOT; };
 		908308EE236AEAE900DBC014 /* SelectSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSongView.swift; sourceTree = "<group>"; };
 		908308F0236AECB100DBC014 /* SelectTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTrackView.swift; sourceTree = "<group>"; };
 		908308F2236AF0BE00DBC014 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
@@ -269,6 +270,7 @@
 		9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DJ Drum.entitlements"; sourceTree = "<group>"; };
 		90B0F99E23B34BEC0063BBE4 /* TestSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSong.swift; sourceTree = "<group>"; };
 		90B0F9A023B34C4F0063BBE4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		90B0F9A723B36D1E0063BBE4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Avicii__Fade_Into_Darkness.mid; sourceTree = "<group>"; };
 		90B79EC12374E0A300A377E1 /* High_on_Life.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = High_on_Life.mid; sourceTree = "<group>"; };
 		90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Animals_-_Martin_Garrix.mid"; sourceTree = "<group>"; };
@@ -406,13 +408,13 @@
 		90830869236AE56C00DBC014 /* DJ Drum */ = {
 			isa = PBXGroup;
 			children = (
+				90B0F9AA23B36DB40063BBE4 /* Resources */,
 				90EB96C423B131970017BB6C /* Samples */,
 				908308D7236AE6B500DBC014 /* Songs */,
 				9083088C236AE64300DBC014 /* MidiParser */,
 				90B0F9A223B36C660063BBE4 /* Models */,
 				90B0F9A323B36C820063BBE4 /* UI */,
 				90B0F9A423B36C9E0063BBE4 /* Extensions */,
-				90B0F9A523B36CBE0063BBE4 /* Resources */,
 				90830872236AE56D00DBC014 /* Preview Content */,
 			);
 			path = "DJ Drum";
@@ -587,6 +589,7 @@
 		90B0F9A223B36C660063BBE4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				908308FC236B550700DBC014 /* DrumState.swift */,
 				9083092C236BA85900DBC014 /* SongProvider.swift */,
 				90B0F99E23B34BEC0063BBE4 /* TestSong.swift */,
 				90635E97236C380100DF16E6 /* MidiNotesPlayer.swift */,
@@ -599,14 +602,15 @@
 		90B0F9A323B36C820063BBE4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				90B0F9AB23B370F50063BBE4 /* PlayingView */,
 				90B0F9A623B36CDC0063BBE4 /* TutorialView */,
 				908308EE236AEAE900DBC014 /* SelectSongView.swift */,
 				908308F0236AECB100DBC014 /* SelectTrackView.swift */,
 				908308F6236AF84000DBC014 /* PadView.swift */,
 				908308FA236B4FF900DBC014 /* DrumView.swift */,
-				908308FC236B550700DBC014 /* DrumState.swift */,
 				90830902236BA31900DBC014 /* OctavesView.swift */,
 				90830904236BA50300DBC014 /* SlowControlView.swift */,
+				90B0F9A723B36D1E0063BBE4 /* MainView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -619,20 +623,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		90B0F9A523B36CBE0063BBE4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */,
-				9083086A236AE56C00DBC014 /* AppDelegate.swift */,
-				9083086C236AE56C00DBC014 /* SceneDelegate.swift */,
-				90830870236AE56D00DBC014 /* Assets.xcassets */,
-				90830875236AE56D00DBC014 /* LaunchScreen.storyboard */,
-				90830878236AE56D00DBC014 /* Info.plist */,
-				908308EA236AE94D00DBC014 /* R.generated.swift */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		90B0F9A623B36CDC0063BBE4 /* TutorialView */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,6 +630,27 @@
 				908308FE236B7CD800DBC014 /* TutorialViewModel.swift */,
 			);
 			path = TutorialView;
+			sourceTree = "<group>";
+		};
+		90B0F9AA23B36DB40063BBE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9083086A236AE56C00DBC014 /* AppDelegate.swift */,
+				9083086C236AE56C00DBC014 /* SceneDelegate.swift */,
+				90830870236AE56D00DBC014 /* Assets.xcassets */,
+				90830875236AE56D00DBC014 /* LaunchScreen.storyboard */,
+				908308EA236AE94D00DBC014 /* R.generated.swift */,
+				9083092E236BAEFB00DBC014 /* DJ Drum.entitlements */,
+				90830878236AE56D00DBC014 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		90B0F9AB23B370F50063BBE4 /* PlayingView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlayingView;
 			sourceTree = "<group>";
 		};
 		90EB96C423B131970017BB6C /* Samples */ = {
@@ -971,6 +982,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90830903236BA31900DBC014 /* OctavesView.swift in Sources */,
+				90B0F9A823B36D1E0063BBE4 /* MainView.swift in Sources */,
 				908308FB236B4FF900DBC014 /* DrumView.swift in Sources */,
 				908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */,
 				908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */,

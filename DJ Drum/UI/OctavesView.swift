@@ -10,6 +10,7 @@ import SwiftUI
 
 struct OctavesView: View {
   @ObservedObject var viewModel: TutorialViewModel
+  
   var body: some View {
     VStack(alignment: .center) {
       Text("Octave").font(.headline)
