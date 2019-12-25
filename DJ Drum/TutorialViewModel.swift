@@ -12,21 +12,13 @@ import SwiftUI
 
 class TutorialViewModel: ObservableObject {
   private let numberOfPads = 18
-  private static let timeInterval: Float64 = 0.2
+  private static let timeInterval: Float64 = 0.1
   let track: MidiNoteTrack
-  let player: MidiNotesPlayer
-  @Published var timeStamp: Float64 = 0 {
-    didSet {
-      player.set(timeStamp: timeStamp)
-    }
-  }
+  let player: PianoPlayer
+  @Published var timeStamp: Float64 = 0
   @Published var octave: Int = 4
   @Published var isPlaying = false
-  @Published var slowFactor: Int = 1 {
-    didSet {
-      player.set(speed: 0.5 / Float64(slowFactor))
-    }
-  }
+  @Published var slowFactor: Int = 1
   var timerSubscription: AnyCancellable?
   var cancellableTimerPublisher: Cancellable?
   let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
@@ -79,17 +71,17 @@ class TutorialViewModel: ObservableObject {
   
   init(track: MidiNoteTrack) {
     self.track = track
-    self.player = MidiNotesPlayer(midiNotes: track.notes)
+    self.player = PianoPlayer()
     
     timerSubscription = timerPublisher
       .sink { [weak self] _ in
         guard let self = self else { return }
         guard self.isPlaying else { return }
         self.timeStamp += (TutorialViewModel.timeInterval / Float64(self.slowFactor) )
+        self.player.play(midiNotes: self.currentNotes)
     }
     cancellableTimerPublisher = timerPublisher.connect()
     octave = allOctaves.first ?? 4
-    player.set(speed: 0.5)
     
     if isPlaying {
       play()
@@ -102,12 +94,10 @@ class TutorialViewModel: ObservableObject {
   
   func play() {
     isPlaying = true
-    player.play()
   }
   
   func pause() {
     isPlaying = false
-    player.pause()
   }
   
   func increaseSlowFactor() {
@@ -131,7 +121,6 @@ class TutorialViewModel: ObservableObject {
   
   func reset() {
     timeStamp = 0
-    player.reset()
   }
   
   func getDrumState() -> DrumState {

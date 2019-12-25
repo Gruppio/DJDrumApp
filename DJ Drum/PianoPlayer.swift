@@ -11,25 +11,44 @@ import AVFoundation
 import AudioToolbox
 
 class PianoPlayer {
-  let players: [UInt8: AVAudioPlayer]
-  
-  init() {
-    var allPlayers: [UInt8: AVAudioPlayer] = [:]
+  static var players: [String: AVAudioPlayer] = {
+    var allPlayers: [String: AVAudioPlayer] = [:]
     
-    for noteNumber in Note.allNotes.keys {
-      let note = Note.allNotes[noteNumber]!
-      let url = URL(fileURLWithPath: Bundle.main.path(forResource: note.description, ofType: "wav")!)
-      let audioPlayer = try! AVAudioPlayer(contentsOf: url)
-      allPlayers[noteNumber] = audioPlayer
+    let samplesURL: [URL] = try! FileManager
+      .default
+      .contentsOfDirectory(at: Bundle.main.bundleURL, includingPropertiesForKeys: nil)
+      .filter { $0.pathExtension == "wav" }
+    
+    for url in samplesURL {
+      let audioPlayer = try? AVAudioPlayer(contentsOf: url)
+      let key = url.deletingPathExtension().lastPathComponent
+      print(key)
+      allPlayers[key] = audioPlayer
     }
     
-    self.players = allPlayers
-  }
+    return allPlayers
+  }()
+  
+  var previousNotes: [String] = []
   
   func play(midiNotes: [MidiNote]) {
-    let notes = midiNotes.map { $0.note }
-    notes.forEach {
-      players[$0]?.play()
+    let notes = midiNotes.map { Note($0.note).description }
+    
+    let newNotesToPlay = notes.filter { !previousNotes.contains($0) }
+//    let notesToPause = previousNotes.filter { !notes.contains($0) }
+    previousNotes = notes
+    
+    newNotesToPlay
+      .forEach {
+        Self.players[$0]?.pause()
+        Self.players[$0]?.currentTime = 0
+        Self.players[$0]?.play()
     }
+    
+//    notesToPause
+//      .forEach {
+//        Self.players[$0]?.pause()
+//        Self.players[$0]?.currentTime = 0
+//    }
   }
 }
