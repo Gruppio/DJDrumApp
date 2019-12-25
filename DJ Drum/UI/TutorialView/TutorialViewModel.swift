@@ -12,7 +12,7 @@ import SwiftUI
 
 class TutorialViewModel: ObservableObject {
   private let numberOfPads = 18
-  private static let timeInterval: Float64 = 0.1
+  private static let timeInterval: Float64 = 0.2
   let track: MidiNoteTrack
   let player: PianoPlayer
   @Published var timeStamp: Float64 = 0
