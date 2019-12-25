@@ -9,32 +9,32 @@
 import SwiftUI
 
 struct SlowControlView: View {
-    @ObservedObject var viewModel: TutorialViewModel
-    
-    var body: some View {
-        VStack(alignment: .center) {
-            Text("Slow").font(.headline)
-            HStack {
-                Button(action: viewModel.decreaseSlowFactor) {
-                    Image(systemName: "minus.circle")
-                }
-                Text("\(viewModel.slowFactor)")
-                Button(action: viewModel.increaseSlowFactor) {
-                    Image(systemName: "plus.circle")
-                }
-            }.font(.largeTitle)
+  @ObservedObject var viewModel: TutorialViewModel
+  
+  var body: some View {
+    VStack(alignment: .center) {
+      Text("Slow").font(.headline)
+      HStack {
+        Button(action: viewModel.decreaseSlowFactor) {
+          Image(systemName: "minus.circle")
         }
+        Text("\(viewModel.slowFactor)")
+        Button(action: viewModel.increaseSlowFactor) {
+          Image(systemName: "plus.circle")
+        }
+      }.font(.largeTitle)
     }
+  }
 }
 
 struct SlowControlView_Previews: PreviewProvider {
-    static var track: MidiNoteTrack {
-        let midiData = MidiData()
-        midiData.load(data: Song.secrets.data)
-        return midiData.noteTracks.first!
-    }
-    
-    static var previews: some View {
-        SlowControlView(viewModel: TutorialViewModel(track: track))
-    }
+  static var track: MidiNoteTrack {
+    let midiData = MidiData()
+    midiData.load(data: TestSong.secrets.data)
+    return midiData.noteTracks.first!
+  }
+  
+  static var previews: some View {
+    SlowControlView(viewModel: TutorialViewModel(track: track))
+  }
 }

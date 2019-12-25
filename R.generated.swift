@@ -16,16 +16,40 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.file` struct is generated, and contains static references to 38 files.
+  /// This `R.file` struct is generated, and contains static references to 114 files.
   struct file {
+    /// Resource file `A2.wav`.
+    static let a2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "A2", pathExtension: "wav")
+    /// Resource file `A3.wav`.
+    static let a3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "A3", pathExtension: "wav")
+    /// Resource file `A4.wav`.
+    static let a4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "A4", pathExtension: "wav")
+    /// Resource file `A5.wav`.
+    static let a5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "A5", pathExtension: "wav")
     /// Resource file `ALESSO_HEROES.mid`.
     static let alesso_HEROESMid = Rswift.FileResource(bundle: R.hostingBundle, name: "ALESSO_HEROES", pathExtension: "mid")
+    /// Resource file `Ab2.wav`.
+    static let ab2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ab2", pathExtension: "wav")
+    /// Resource file `Ab3.wav`.
+    static let ab3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ab3", pathExtension: "wav")
+    /// Resource file `Ab4.wav`.
+    static let ab4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ab4", pathExtension: "wav")
+    /// Resource file `Ab5.wav`.
+    static let ab5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ab5", pathExtension: "wav")
     /// Resource file `Amour_tojours.mid`.
     static let amour_tojoursMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Amour_tojours", pathExtension: "mid")
     /// Resource file `Animals-Martin_Garrix.mid`.
     static let animalsMartin_GarrixMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Animals-Martin_Garrix", pathExtension: "mid")
     /// Resource file `Animals_-_Martin_Garrix.mid`.
     static let animals__Martin_GarrixMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Animals_-_Martin_Garrix", pathExtension: "mid")
+    /// Resource file `As2.wav`.
+    static let as2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As2", pathExtension: "wav")
+    /// Resource file `As3.wav`.
+    static let as3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As3", pathExtension: "wav")
+    /// Resource file `As4.wav`.
+    static let as4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As4", pathExtension: "wav")
+    /// Resource file `As5.wav`.
+    static let as5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As5", pathExtension: "wav")
     /// Resource file `Avicii_-_Heaven_Chris_Martin.mid`.
     static let avicii__Heaven_Chris_MartinMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_-_Heaven_Chris_Martin", pathExtension: "mid")
     /// Resource file `Avicii_-_Lonely_Together_ft._Rita_Ora.mid`.
@@ -44,10 +68,138 @@ struct R: Rswift.Validatable {
     static let axwell_L_Ingrosso__More_Than_You_KnowMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Axwell_L_Ingrosso_-_More_Than_You_Know", pathExtension: "mid")
     /// Resource file `Axwell__Ingrosso_-_Dreamer_ft.mid`.
     static let axwell__Ingrosso__Dreamer_ftMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Axwell__Ingrosso_-_Dreamer_ft", pathExtension: "mid")
+    /// Resource file `B1.wav`.
+    static let b1Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "B1", pathExtension: "wav")
+    /// Resource file `B2.wav`.
+    static let b2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "B2", pathExtension: "wav")
+    /// Resource file `B3.wav`.
+    static let b3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "B3", pathExtension: "wav")
+    /// Resource file `B4.wav`.
+    static let b4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "B4", pathExtension: "wav")
+    /// Resource file `B5.wav`.
+    static let b5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "B5", pathExtension: "wav")
+    /// Resource file `Bb1.wav`.
+    static let bb1Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Bb1", pathExtension: "wav")
+    /// Resource file `Bb2.wav`.
+    static let bb2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Bb2", pathExtension: "wav")
+    /// Resource file `Bb3.wav`.
+    static let bb3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Bb3", pathExtension: "wav")
+    /// Resource file `Bb4.wav`.
+    static let bb4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Bb4", pathExtension: "wav")
+    /// Resource file `Bb5.wav`.
+    static let bb5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Bb5", pathExtension: "wav")
     /// Resource file `Belong.mid`.
     static let belongMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Belong", pathExtension: "mid")
+    /// Resource file `C2.wav`.
+    static let c2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "C2", pathExtension: "wav")
+    /// Resource file `C3.wav`.
+    static let c3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "C3", pathExtension: "wav")
+    /// Resource file `C4.wav`.
+    static let c4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "C4", pathExtension: "wav")
+    /// Resource file `C5.wav`.
+    static let c5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "C5", pathExtension: "wav")
+    /// Resource file `C6.wav`.
+    static let c6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "C6", pathExtension: "wav")
     /// Resource file `Calling.mid`.
     static let callingMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Calling", pathExtension: "mid")
+    /// Resource file `Cs2.wav`.
+    static let cs2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Cs2", pathExtension: "wav")
+    /// Resource file `Cs3.wav`.
+    static let cs3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Cs3", pathExtension: "wav")
+    /// Resource file `Cs4.wav`.
+    static let cs4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Cs4", pathExtension: "wav")
+    /// Resource file `Cs5.wav`.
+    static let cs5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Cs5", pathExtension: "wav")
+    /// Resource file `Cs6.wav`.
+    static let cs6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Cs6", pathExtension: "wav")
+    /// Resource file `D2.wav`.
+    static let d2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "D2", pathExtension: "wav")
+    /// Resource file `D3.wav`.
+    static let d3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "D3", pathExtension: "wav")
+    /// Resource file `D4.wav`.
+    static let d4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "D4", pathExtension: "wav")
+    /// Resource file `D5.wav`.
+    static let d5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "D5", pathExtension: "wav")
+    /// Resource file `D6.wav`.
+    static let d6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "D6", pathExtension: "wav")
+    /// Resource file `Db2.wav`.
+    static let db2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Db2", pathExtension: "wav")
+    /// Resource file `Db3.wav`.
+    static let db3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Db3", pathExtension: "wav")
+    /// Resource file `Db4.wav`.
+    static let db4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Db4", pathExtension: "wav")
+    /// Resource file `Db5.wav`.
+    static let db5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Db5", pathExtension: "wav")
+    /// Resource file `Db6.wav`.
+    static let db6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Db6", pathExtension: "wav")
+    /// Resource file `Ds2.wav`.
+    static let ds2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ds2", pathExtension: "wav")
+    /// Resource file `Ds3.wav`.
+    static let ds3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ds3", pathExtension: "wav")
+    /// Resource file `Ds4.wav`.
+    static let ds4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ds4", pathExtension: "wav")
+    /// Resource file `Ds5.wav`.
+    static let ds5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ds5", pathExtension: "wav")
+    /// Resource file `Ds6.wav`.
+    static let ds6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Ds6", pathExtension: "wav")
+    /// Resource file `E2.wav`.
+    static let e2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "E2", pathExtension: "wav")
+    /// Resource file `E3.wav`.
+    static let e3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "E3", pathExtension: "wav")
+    /// Resource file `E4.wav`.
+    static let e4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "E4", pathExtension: "wav")
+    /// Resource file `E5.wav`.
+    static let e5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "E5", pathExtension: "wav")
+    /// Resource file `Eb2.wav`.
+    static let eb2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb2", pathExtension: "wav")
+    /// Resource file `Eb3.wav`.
+    static let eb3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb3", pathExtension: "wav")
+    /// Resource file `Eb4.wav`.
+    static let eb4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb4", pathExtension: "wav")
+    /// Resource file `Eb5.wav`.
+    static let eb5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb5", pathExtension: "wav")
+    /// Resource file `Eb6.wav`.
+    static let eb6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb6", pathExtension: "wav")
+    /// Resource file `F2.wav`.
+    static let f2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "F2", pathExtension: "wav")
+    /// Resource file `F3.wav`.
+    static let f3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "F3", pathExtension: "wav")
+    /// Resource file `F4.wav`.
+    static let f4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "F4", pathExtension: "wav")
+    /// Resource file `F5.wav`.
+    static let f5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "F5", pathExtension: "wav")
+    /// Resource file `Fs2.wav`.
+    static let fs2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Fs2", pathExtension: "wav")
+    /// Resource file `Fs3.wav`.
+    static let fs3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Fs3", pathExtension: "wav")
+    /// Resource file `Fs4.wav`.
+    static let fs4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Fs4", pathExtension: "wav")
+    /// Resource file `Fs5.wav`.
+    static let fs5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Fs5", pathExtension: "wav")
+    /// Resource file `G2.wav`.
+    static let g2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "G2", pathExtension: "wav")
+    /// Resource file `G3.wav`.
+    static let g3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "G3", pathExtension: "wav")
+    /// Resource file `G4.wav`.
+    static let g4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "G4", pathExtension: "wav")
+    /// Resource file `G5.wav`.
+    static let g5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "G5", pathExtension: "wav")
+    /// Resource file `Gb2.wav`.
+    static let gb2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gb2", pathExtension: "wav")
+    /// Resource file `Gb3.wav`.
+    static let gb3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gb3", pathExtension: "wav")
+    /// Resource file `Gb4.wav`.
+    static let gb4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gb4", pathExtension: "wav")
+    /// Resource file `Gb5.wav`.
+    static let gb5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gb5", pathExtension: "wav")
+    /// Resource file `Gs2.wav`.
+    static let gs2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gs2", pathExtension: "wav")
+    /// Resource file `Gs3.wav`.
+    static let gs3Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gs3", pathExtension: "wav")
+    /// Resource file `Gs4.wav`.
+    static let gs4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gs4", pathExtension: "wav")
+    /// Resource file `Gs5.wav`.
+    static let gs5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Gs5", pathExtension: "wav")
     /// Resource file `Heaven_-_Avicii__Piano_Tutorial.mid`.
     static let heaven__Avicii__Piano_TutorialMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Heaven_-_Avicii__Piano_Tutorial", pathExtension: "mid")
     /// Resource file `Heroes_-Alesso_for_Front_ensemble.mid`.
@@ -95,9 +247,57 @@ struct R: Rswift.Validatable {
     /// Resource file `tiesto_written_in_reverse.mid`.
     static let tiesto_written_in_reverseMid = Rswift.FileResource(bundle: R.hostingBundle, name: "tiesto_written_in_reverse", pathExtension: "mid")
     
+    /// `bundle.url(forResource: "A2", withExtension: "wav")`
+    static func a2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.a2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "A3", withExtension: "wav")`
+    static func a3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.a3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "A4", withExtension: "wav")`
+    static func a4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.a4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "A5", withExtension: "wav")`
+    static func a5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.a5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "ALESSO_HEROES", withExtension: "mid")`
     static func alesso_HEROESMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.alesso_HEROESMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ab2", withExtension: "wav")`
+    static func ab2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ab2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ab3", withExtension: "wav")`
+    static func ab3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ab3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ab4", withExtension: "wav")`
+    static func ab4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ab4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ab5", withExtension: "wav")`
+    static func ab5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ab5Wav
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -116,6 +316,30 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "Animals_-_Martin_Garrix", withExtension: "mid")`
     static func animals__Martin_GarrixMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.animals__Martin_GarrixMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "As2", withExtension: "wav")`
+    static func as2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.as2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "As3", withExtension: "wav")`
+    static func as3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.as3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "As4", withExtension: "wav")`
+    static func as4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.as4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "As5", withExtension: "wav")`
+    static func as5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.as5Wav
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -173,15 +397,399 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "B1", withExtension: "wav")`
+    static func b1Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.b1Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "B2", withExtension: "wav")`
+    static func b2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.b2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "B3", withExtension: "wav")`
+    static func b3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.b3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "B4", withExtension: "wav")`
+    static func b4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.b4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "B5", withExtension: "wav")`
+    static func b5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.b5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bb1", withExtension: "wav")`
+    static func bb1Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bb1Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bb2", withExtension: "wav")`
+    static func bb2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bb2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bb3", withExtension: "wav")`
+    static func bb3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bb3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bb4", withExtension: "wav")`
+    static func bb4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bb4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Bb5", withExtension: "wav")`
+    static func bb5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.bb5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "Belong", withExtension: "mid")`
     static func belongMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.belongMid
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "C2", withExtension: "wav")`
+    static func c2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.c2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "C3", withExtension: "wav")`
+    static func c3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.c3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "C4", withExtension: "wav")`
+    static func c4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.c4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "C5", withExtension: "wav")`
+    static func c5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.c5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "C6", withExtension: "wav")`
+    static func c6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.c6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "Calling", withExtension: "mid")`
     static func callingMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.callingMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Cs2", withExtension: "wav")`
+    static func cs2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.cs2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Cs3", withExtension: "wav")`
+    static func cs3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.cs3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Cs4", withExtension: "wav")`
+    static func cs4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.cs4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Cs5", withExtension: "wav")`
+    static func cs5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.cs5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Cs6", withExtension: "wav")`
+    static func cs6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.cs6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "D2", withExtension: "wav")`
+    static func d2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.d2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "D3", withExtension: "wav")`
+    static func d3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.d3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "D4", withExtension: "wav")`
+    static func d4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.d4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "D5", withExtension: "wav")`
+    static func d5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.d5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "D6", withExtension: "wav")`
+    static func d6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.d6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Db2", withExtension: "wav")`
+    static func db2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.db2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Db3", withExtension: "wav")`
+    static func db3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.db3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Db4", withExtension: "wav")`
+    static func db4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.db4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Db5", withExtension: "wav")`
+    static func db5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.db5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Db6", withExtension: "wav")`
+    static func db6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.db6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ds2", withExtension: "wav")`
+    static func ds2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ds2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ds3", withExtension: "wav")`
+    static func ds3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ds3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ds4", withExtension: "wav")`
+    static func ds4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ds4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ds5", withExtension: "wav")`
+    static func ds5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ds5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Ds6", withExtension: "wav")`
+    static func ds6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.ds6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "E2", withExtension: "wav")`
+    static func e2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.e2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "E3", withExtension: "wav")`
+    static func e3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.e3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "E4", withExtension: "wav")`
+    static func e4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.e4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "E5", withExtension: "wav")`
+    static func e5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.e5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eb2", withExtension: "wav")`
+    static func eb2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eb2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eb3", withExtension: "wav")`
+    static func eb3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eb3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eb4", withExtension: "wav")`
+    static func eb4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eb4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eb5", withExtension: "wav")`
+    static func eb5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eb5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eb6", withExtension: "wav")`
+    static func eb6Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eb6Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "F2", withExtension: "wav")`
+    static func f2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.f2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "F3", withExtension: "wav")`
+    static func f3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.f3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "F4", withExtension: "wav")`
+    static func f4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.f4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "F5", withExtension: "wav")`
+    static func f5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.f5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fs2", withExtension: "wav")`
+    static func fs2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fs2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fs3", withExtension: "wav")`
+    static func fs3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fs3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fs4", withExtension: "wav")`
+    static func fs4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fs4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Fs5", withExtension: "wav")`
+    static func fs5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.fs5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "G2", withExtension: "wav")`
+    static func g2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.g2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "G3", withExtension: "wav")`
+    static func g3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.g3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "G4", withExtension: "wav")`
+    static func g4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.g4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "G5", withExtension: "wav")`
+    static func g5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.g5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gb2", withExtension: "wav")`
+    static func gb2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gb2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gb3", withExtension: "wav")`
+    static func gb3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gb3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gb4", withExtension: "wav")`
+    static func gb4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gb4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gb5", withExtension: "wav")`
+    static func gb5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gb5Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gs2", withExtension: "wav")`
+    static func gs2Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gs2Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gs3", withExtension: "wav")`
+    static func gs3Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gs3Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gs4", withExtension: "wav")`
+    static func gs4Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gs4Wav
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Gs5", withExtension: "wav")`
+    static func gs5Wav(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.gs5Wav
       return fileResource.bundle.url(forResource: fileResource)
     }
     

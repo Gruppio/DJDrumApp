@@ -24,13 +24,13 @@ import Foundation
 
 
 struct DrumState {
-    let activeNotesIndex: [Int]
-    //private let padMappingKeyboard2Drum = [7, 1, 8, 2, 9, 10, 3, 11, 4, 12, 5, 13, 14, 6, 15, 18, 16, 17]
-    //private let padMappingDrum2Keyboard = [2, 4, 7, 9, 11, 14, 1, 3, 5, 6, 8, 10, 12, 13, 15, 17, 18, 16]
-    private let padMappingDrum2Keyboard = [1, 3, 6, 8, 10, 13, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 15]
-    
-    func isActive(pad: Int) -> Bool {
-        let mappedPad = padMappingDrum2Keyboard[pad]
-        return activeNotesIndex.contains(mappedPad)
-    }
+  let activeNotesIndex: [Int]
+  //private let padMappingKeyboard2Drum = [7, 1, 8, 2, 9, 10, 3, 11, 4, 12, 5, 13, 14, 6, 15, 18, 16, 17]
+  //private let padMappingDrum2Keyboard = [2, 4, 7, 9, 11, 14, 1, 3, 5, 6, 8, 10, 12, 13, 15, 17, 18, 16]
+  private let padMappingDrum2Keyboard = [1, 3, 6, 8, 10, 13, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 15]
+  
+  func isActive(pad: Int) -> Bool {
+    let mappedPad = padMappingDrum2Keyboard[pad]
+    return activeNotesIndex.contains(mappedPad)
+  }
 }

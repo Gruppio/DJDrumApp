@@ -9,17 +9,17 @@
 import SwiftUI
 
 struct PadView: View {
-    let isActive: Bool
-    
-    var body: some View {
-        Circle()
-            .aspectRatio(contentMode: .fit)
-            .foregroundColor(isActive ? .blue : .gray)
-    }
+  let isActive: Bool
+  
+  var body: some View {
+    Circle()
+      .aspectRatio(contentMode: .fit)
+      .foregroundColor(isActive ? .blue : .gray)
+  }
 }
 
 struct PadView_Previews: PreviewProvider {
-    static var previews: some View {
-        PadView(isActive: true)
-    }
+  static var previews: some View {
+    PadView(isActive: true)
+  }
 }

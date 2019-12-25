@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct SelectSongView: View {
-    let songProvider = SongProvider()
-    var body: some View {
-        NavigationView {
-            List(songProvider.allSongs, id: \.absoluteString) { song in
-                NavigationLink(destination: SelectTrackView(url: song)) {
-                    Text(self.songProvider.getTitle(for: song))
-                }
-            }.navigationBarTitle(Text("Select Song"))
+  let songProvider = SongProvider()
+  var body: some View {
+    NavigationView {
+      List(songProvider.allSongs, id: \.absoluteString) { song in
+        NavigationLink(destination: SelectTrackView(url: song)) {
+          Text(self.songProvider.getTitle(for: song))
         }
+      }.navigationBarTitle(Text("Select Song"))
     }
+  }
 }
 
 struct SelectSongView_Previews: PreviewProvider {
-    static var previews: some View {
-        SelectSongView()
-    }
+  static var previews: some View {
+    SelectSongView()
+  }
 }
