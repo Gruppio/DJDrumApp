@@ -16,6 +16,12 @@ struct MainView: View {
             Image(systemName: "list.dash")
             Text("Tutorial")
         }
+        
+        PlayingView(viewModel: PlayingViewModel())
+          .tabItem {
+            Image(systemName: "list.dash")
+            Text("Live")
+        }
       }
     }
 }

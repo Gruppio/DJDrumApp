@@ -10,20 +10,23 @@ import SwiftUI
 
 struct PadView: View {
   let isActive: Bool
-  let didTap: (() -> Void)?
+  let onTap: (() -> Void)?
+  let onRelease: (() -> Void)?
   
   var body: some View {
     Circle()
       .aspectRatio(contentMode: .fit)
       .foregroundColor(isActive ? .blue : .gray)
-      .onTapGesture {
-        self.didTap?()
-    }
+      .gesture(
+        DragGesture(minimumDistance: 0, coordinateSpace: .global)
+        .onChanged ({ _ in self.onTap?() })
+        .onEnded { _ in self.onRelease?() }
+    )
   }
 }
 
 struct PadView_Previews: PreviewProvider {
   static var previews: some View {
-    PadView(isActive: true, didTap: nil)
+    PadView(isActive: true, onTap: nil, onRelease: nil)
   }
 }

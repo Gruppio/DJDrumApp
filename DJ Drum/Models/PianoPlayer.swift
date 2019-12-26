@@ -22,7 +22,6 @@ class PianoPlayer {
     for url in samplesURL {
       let audioPlayer = try? AVAudioPlayer(contentsOf: url)
       let key = url.deletingPathExtension().lastPathComponent
-      print(key)
       allPlayers[key] = audioPlayer
     }
     
@@ -30,10 +29,9 @@ class PianoPlayer {
   }()
   
   var previousNotes: [String] = []
-  
-  func play(midiNotes: [MidiNote]) {
-    let notes = midiNotes.map { Note($0.note).description }
     
+  func play(notes: [Note]) {
+    let notes = notes.map { $0.description }
     let newNotesToPlay = notes.filter { !previousNotes.contains($0) }
 //    let notesToPause = previousNotes.filter { !notes.contains($0) }
     previousNotes = notes

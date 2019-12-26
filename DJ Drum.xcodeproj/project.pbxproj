@@ -101,6 +101,9 @@
 		90B79EE12374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */; };
 		90B79EE22374E0A400A377E1 /* Red_Lights.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED02374E0A400A377E1 /* Red_Lights.mid */; };
 		90B79EE32374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */; };
+		90D52F2C23B5511700FB4BB3 /* PlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */; };
+		90D52F2E23B5512F00FB4BB3 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */; };
+		90D52F3023B57A8100FB4BB3 /* PadMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */; };
 		90EB96C223B130C10017BB6C /* PianoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB96C123B130C10017BB6C /* PianoPlayer.swift */; };
 		90EB971123B131970017BB6C /* Gb5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C523B131970017BB6C /* Gb5.wav */; };
 		90EB971223B131970017BB6C /* Ab3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C623B131970017BB6C /* Ab3.wav */; };
@@ -289,6 +292,9 @@
 		90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Pizza_Orchestral_Martin_garrix.mid; sourceTree = "<group>"; };
 		90B79ED02374E0A400A377E1 /* Red_Lights.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Red_Lights.mid; sourceTree = "<group>"; };
 		90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "On_My_Way_-_AxwellIngrosso.mid"; path = "../../../../../../Downloads/On_My_Way_-_AxwellIngrosso.mid"; sourceTree = "<group>"; };
+		90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewModel.swift; sourceTree = "<group>"; };
+		90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadMapping.swift; sourceTree = "<group>"; };
 		90EB96C123B130C10017BB6C /* PianoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayer.swift; sourceTree = "<group>"; };
 		90EB96C523B131970017BB6C /* Gb5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gb5.wav; sourceTree = "<group>"; };
 		90EB96C623B131970017BB6C /* Ab3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ab3.wav; sourceTree = "<group>"; };
@@ -595,6 +601,7 @@
 				90635E97236C380100DF16E6 /* MidiNotesPlayer.swift */,
 				90EB96C123B130C10017BB6C /* PianoPlayer.swift */,
 				90B0F9A023B34C4F0063BBE4 /* Note.swift */,
+				90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -649,6 +656,8 @@
 		90B0F9AB23B370F50063BBE4 /* PlayingView */ = {
 			isa = PBXGroup;
 			children = (
+				90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */,
+				90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */,
 			);
 			path = PlayingView;
 			sourceTree = "<group>";
@@ -990,6 +999,8 @@
 				9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */,
 				908308F3236AF0BE00DBC014 /* TutorialView.swift in Sources */,
 				908308C7236AE68C00DBC014 /* KeySignature.swift in Sources */,
+				90D52F2C23B5511700FB4BB3 /* PlayingViewModel.swift in Sources */,
+				90D52F3023B57A8100FB4BB3 /* PadMapping.swift in Sources */,
 				908308BA236AE68C00DBC014 /* MidiExtendedNoteOnEvent.swift in Sources */,
 				908308D2236AE68C00DBC014 /* MidiData.swift in Sources */,
 				90EB96C223B130C10017BB6C /* PianoPlayer.swift in Sources */,
@@ -1013,6 +1024,7 @@
 				908308FD236B550700DBC014 /* DrumState.swift in Sources */,
 				908308D3236AE68C00DBC014 /* HeaderChunk.swift in Sources */,
 				908308BB236AE68C00DBC014 /* MidiAUPresetEvent.swift in Sources */,
+				90D52F2E23B5512F00FB4BB3 /* PlayingView.swift in Sources */,
 				908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */,
 				90635E98236C380100DF16E6 /* MidiNotesPlayer.swift in Sources */,
 				908308F7236AF84000DBC014 /* PadView.swift in Sources */,

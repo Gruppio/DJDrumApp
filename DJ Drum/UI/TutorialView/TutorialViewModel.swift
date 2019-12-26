@@ -23,6 +23,10 @@ class TutorialViewModel: ObservableObject {
   var cancellableTimerPublisher: Cancellable?
   let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
   
+  var padMapping: PadMapping {
+    NormalPadMapping()
+  }
+  
   var base: Int {
     (octave + 1) * 12
   }
@@ -78,7 +82,7 @@ class TutorialViewModel: ObservableObject {
         guard let self = self else { return }
         guard self.isPlaying else { return }
         self.timeStamp += (TutorialViewModel.timeInterval / Float64(self.slowFactor) )
-        self.player.play(midiNotes: self.currentNotes)
+        self.player.play(notes: self.currentNotes.map { Note($0.note) })
     }
     cancellableTimerPublisher = timerPublisher.connect()
     octave = allOctaves.first ?? 4
@@ -127,9 +131,10 @@ class TutorialViewModel: ObservableObject {
     let displayableNotes = currentNotes
       .map { Int($0.note) - base }
       .filter { $0 >= 0 && $0 < numberOfPads }
+      .map { self.padMapping.mapping[$0] }
     //        print(currentNotes.map { Int($0.note) }.map { String($0) }.joined(separator: ","))
     //        print(displayableNotes.map { String($0) }.joined(separator: ","))
     //       print("---")
-    return DrumState(activeNotesIndex: Array(displayableNotes))
+    return DrumState(activePads: Array(displayableNotes))
   }
 }

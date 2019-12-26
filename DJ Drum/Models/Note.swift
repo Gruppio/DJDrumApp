@@ -8,8 +8,6 @@
 
 import Foundation
 
-
-
 struct Note: CustomStringConvertible {
   static let notesRange = 21...108
   static var allNotes: [UInt8: Note] = {
