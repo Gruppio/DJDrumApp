@@ -15,6 +15,13 @@ struct PlayingView: View {
     VStack {
       DrumView(drumState: viewModel.drumState, onTap: viewModel.didTap, onRelease: viewModel.didRelease)
       Spacer()
+      HStack {
+        Spacer()
+        PlayingOctavesView(viewModel: viewModel)
+        Spacer()
+        PlayingIntonationView(viewModel: viewModel)
+        Spacer()
+      }
     }.navigationBarTitle("Live Play")
   }
 }

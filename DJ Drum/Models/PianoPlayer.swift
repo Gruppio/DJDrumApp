@@ -29,11 +29,11 @@ class PianoPlayer {
   }()
   
   var previousNotes: [String] = []
-    
+  
   func play(notes: [Note]) {
     let notes = notes.map { $0.description }
     let newNotesToPlay = notes.filter { !previousNotes.contains($0) }
-//    let notesToPause = previousNotes.filter { !notes.contains($0) }
+    //    let notesToPause = previousNotes.filter { !notes.contains($0) }
     previousNotes = notes
     
     newNotesToPlay
@@ -43,10 +43,14 @@ class PianoPlayer {
         Self.players[$0]?.play()
     }
     
-//    notesToPause
-//      .forEach {
-//        Self.players[$0]?.pause()
-//        Self.players[$0]?.currentTime = 0
-//    }
+    //    notesToPause
+    //      .forEach {
+    //        Self.players[$0]?.pause()
+    //        Self.players[$0]?.currentTime = 0
+    //    }
+  }
+  func pause(note: Note) {
+    let descr = note.description
+    previousNotes.removeAll { $0 == descr }
   }
 }

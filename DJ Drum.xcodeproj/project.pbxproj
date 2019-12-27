@@ -104,6 +104,7 @@
 		90D52F2C23B5511700FB4BB3 /* PlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */; };
 		90D52F2E23B5512F00FB4BB3 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */; };
 		90D52F3023B57A8100FB4BB3 /* PadMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */; };
+		90D52F3423B5850000FB4BB3 /* IntonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F3323B5850000FB4BB3 /* IntonationView.swift */; };
 		90EB96C223B130C10017BB6C /* PianoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB96C123B130C10017BB6C /* PianoPlayer.swift */; };
 		90EB971123B131970017BB6C /* Gb5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C523B131970017BB6C /* Gb5.wav */; };
 		90EB971223B131970017BB6C /* Ab3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C623B131970017BB6C /* Ab3.wav */; };
@@ -295,6 +296,7 @@
 		90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewModel.swift; sourceTree = "<group>"; };
 		90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadMapping.swift; sourceTree = "<group>"; };
+		90D52F3323B5850000FB4BB3 /* IntonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntonationView.swift; sourceTree = "<group>"; };
 		90EB96C123B130C10017BB6C /* PianoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayer.swift; sourceTree = "<group>"; };
 		90EB96C523B131970017BB6C /* Gb5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gb5.wav; sourceTree = "<group>"; };
 		90EB96C623B131970017BB6C /* Ab3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ab3.wav; sourceTree = "<group>"; };
@@ -618,6 +620,7 @@
 				90830902236BA31900DBC014 /* OctavesView.swift */,
 				90830904236BA50300DBC014 /* SlowControlView.swift */,
 				90B0F9A723B36D1E0063BBE4 /* MainView.swift */,
+				90D52F3323B5850000FB4BB3 /* IntonationView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -1028,6 +1031,7 @@
 				908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */,
 				90635E98236C380100DF16E6 /* MidiNotesPlayer.swift in Sources */,
 				908308F7236AF84000DBC014 /* PadView.swift in Sources */,
+				90D52F3423B5850000FB4BB3 /* IntonationView.swift in Sources */,
 				908308EF236AEAE900DBC014 /* SelectSongView.swift in Sources */,
 				908308B8236AE68C00DBC014 /* GMPatch.swift in Sources */,
 				908308C5236AE68C00DBC014 /* MetaEventType.swift in Sources */,

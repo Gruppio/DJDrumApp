@@ -27,7 +27,10 @@ struct TutorialView: View {
       Spacer()
       
       HStack(alignment: .lastTextBaseline) {
+        VStack {
         OctavesView(viewModel: viewModel)
+        IntonationView(viewModel: viewModel)
+        }
         Spacer()
         SlowControlView(viewModel: viewModel)
         Spacer()

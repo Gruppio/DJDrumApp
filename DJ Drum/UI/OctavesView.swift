@@ -27,6 +27,25 @@ struct OctavesView: View {
   }
 }
 
+struct PlayingOctavesView: View {
+  @ObservedObject var viewModel: PlayingViewModel
+  
+  var body: some View {
+    VStack(alignment: .center) {
+      Text("Octave").font(.headline)
+      HStack {
+        Button(action: viewModel.decreaseOctave) {
+          Image(systemName: "minus.circle")
+        }
+        Text("\(viewModel.octave)")
+        Button(action: viewModel.increaseOctave) {
+          Image(systemName: "plus.circle")
+        }
+      }.font(.largeTitle)
+    }
+  }
+}
+
 struct OctavesView_Previews: PreviewProvider {
   static var track: MidiNoteTrack {
     let midiData = MidiData()

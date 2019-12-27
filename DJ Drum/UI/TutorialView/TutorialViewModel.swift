@@ -19,12 +19,22 @@ class TutorialViewModel: ObservableObject {
   @Published var octave: Int = 4
   @Published var isPlaying = false
   @Published var slowFactor: Int = 1
+  @Published var intonation = true
+  @Published var intonationOffset = 0
   var timerSubscription: AnyCancellable?
   var cancellableTimerPublisher: Cancellable?
   let timerPublisher = Timer.publish(every: timeInterval, on: RunLoop.main, in: .default)
   
   var padMapping: PadMapping {
-    NormalPadMapping()
+    intonation ? IntonationPadMapping() : NormalPadMapping()
+  }
+  
+  var intonationOffsetValue: Int {
+    intonation ? intonationOffset : 0
+  }
+  
+  var intonationDescription: String {
+    Note.Name(rawValue: intonationOffset)?.description ?? "?"
   }
   
   var base: Int {
@@ -123,13 +133,23 @@ class TutorialViewModel: ObservableObject {
     octave -= 1
   }
   
+  func increaseIntonation() {
+    guard intonationOffset < 12 else { return }
+    intonationOffset += 1
+  }
+  
+  func decreaseIntonation() {
+    guard intonationOffset >= 0 else { return }
+    intonationOffset -= 1
+  }
+  
   func reset() {
     timeStamp = 0
   }
   
   func getDrumState() -> DrumState {
     let displayableNotes = currentNotes
-      .map { Int($0.note) - base }
+      .map { Int($0.note) - base - intonationOffsetValue }
       .filter { $0 >= 0 && $0 < numberOfPads }
       .map { self.padMapping.mapping[$0] }
     //        print(currentNotes.map { Int($0.note) }.map { String($0) }.joined(separator: ","))
