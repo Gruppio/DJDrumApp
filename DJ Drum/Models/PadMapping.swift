@@ -31,5 +31,5 @@ struct NormalPadMapping: PadMapping {
 }
 
 struct IntonationPadMapping: PadMapping {
-  let mapping = [1, 3, 6, 8, 10, 13, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 15]
+  let mapping = [-9, -7, -6, -4, -2, -1, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19]
 }
