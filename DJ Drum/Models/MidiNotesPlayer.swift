@@ -8,7 +8,7 @@
 
 import Foundation
 
-import AudioToolbox
+
 
 /*
  var sequence : MusicSequence? = nil
@@ -38,7 +38,7 @@ import AudioToolbox
  player = MusicPlayerSetSequence(musicPlayer!, sequence)
  player = MusicPlayerStart(musicPlayer!)
  */
-
+import AudioToolbox
 class MidiNotesPlayer {
   let midiNotes: [MidiNote]
   var sequence: MusicSequence!

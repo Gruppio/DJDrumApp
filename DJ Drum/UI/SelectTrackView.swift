@@ -22,7 +22,7 @@ struct SelectTrackView: View {
   
   var body: some View {
     List(midiData.noteTracks, id: \.title) { track in
-      NavigationLink(destination: TutorialView(viewModel: TutorialViewModel(track: track))) {
+      NavigationLink(destination: MusicSheetView(viewModel: MusicSheetViewModel(track: track))) {
         Text(track.title)
       }
     }.navigationBarTitle(Text("Select Track"))

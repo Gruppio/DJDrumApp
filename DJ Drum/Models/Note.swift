@@ -43,17 +43,34 @@ extension Note {
     var description: String {
       switch self {
       case .C: return "C"
-      case .Cs: return "Cs"
+      case .Cs: return "C#"
       case .D: return "D"
-      case .Ds: return "Ds"
+      case .Ds: return "D#"
       case .E: return "E"
       case .F: return "F"
-      case .Fs: return "Fs"
+      case .Fs: return "F#"
       case .G: return "G"
-      case .Gs: return "Gs"
+      case .Gs: return "G#"
       case .A: return "A"
-      case .As: return "As"
+      case .As: return "A#"
       case .B: return "B"
+      }
+    }
+    
+    var italian: String {
+      switch self {
+      case .C: return "Do"
+      case .Cs: return "Do#"
+      case .D: return "Re"
+      case .Ds: return "Re#"
+      case .E: return "Mi"
+      case .F: return "Fa"
+      case .Fs: return "Fa#"
+      case .G: return "Sol"
+      case .Gs: return "Sol#"
+      case .A: return "La"
+      case .As: return "La#"
+      case .B: return "Si"
       }
     }
   }

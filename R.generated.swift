@@ -16,7 +16,76 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.file` struct is generated, and contains static references to 114 files.
+  /// This `R.color` struct is generated, and contains static references to 7 colors.
+  struct color {
+    /// Color `A`.
+    static let a = Rswift.ColorResource(bundle: R.hostingBundle, name: "A")
+    /// Color `B`.
+    static let b = Rswift.ColorResource(bundle: R.hostingBundle, name: "B")
+    /// Color `C`.
+    static let c = Rswift.ColorResource(bundle: R.hostingBundle, name: "C")
+    /// Color `D`.
+    static let d = Rswift.ColorResource(bundle: R.hostingBundle, name: "D")
+    /// Color `E`.
+    static let e = Rswift.ColorResource(bundle: R.hostingBundle, name: "E")
+    /// Color `F`.
+    static let f = Rswift.ColorResource(bundle: R.hostingBundle, name: "F")
+    /// Color `G`.
+    static let g = Rswift.ColorResource(bundle: R.hostingBundle, name: "G")
+    
+    /// `UIColor(named: "A", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func a(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.a, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "B", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func b(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.b, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "C", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func c(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.c, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "D", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func d(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.d, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "E", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func e(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.e, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "F", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func f(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.f, compatibleWith: traitCollection)
+    }
+    
+    /// `UIColor(named: "G", bundle: ..., traitCollection: ...)`
+    @available(tvOS 11.0, *)
+    @available(iOS 11.0, *)
+    static func g(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIColor? {
+      return UIKit.UIColor(resource: R.color.g, compatibleWith: traitCollection)
+    }
+    
+    fileprivate init() {}
+  }
+  
+  /// This `R.file` struct is generated, and contains static references to 112 files.
   struct file {
     /// Resource file `A2.wav`.
     static let a2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "A2", pathExtension: "wav")
@@ -50,22 +119,16 @@ struct R: Rswift.Validatable {
     static let as4Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As4", pathExtension: "wav")
     /// Resource file `As5.wav`.
     static let as5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "As5", pathExtension: "wav")
-    /// Resource file `Avicii_-_Heaven_Chris_Martin.mid`.
-    static let avicii__Heaven_Chris_MartinMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_-_Heaven_Chris_Martin", pathExtension: "mid")
     /// Resource file `Avicii_-_Lonely_Together_ft._Rita_Ora.mid`.
     static let avicii__Lonely_Together_ft_Rita_OraMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_-_Lonely_Together_ft._Rita_Ora", pathExtension: "mid")
     /// Resource file `Avicii_-_SOS.mid`.
     static let avicii__SOSMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_-_SOS", pathExtension: "mid")
-    /// Resource file `Avicii_-_Without_You_feat._Sandro_Cavazza.mid`.
-    static let avicii__Without_You_feat_Sandro_CavazzaMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_-_Without_You_feat._Sandro_Cavazza", pathExtension: "mid")
     /// Resource file `Avicii_Medley.mid`.
     static let avicii_MedleyMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_Medley", pathExtension: "mid")
     /// Resource file `Avicii__Fade_Into_Darkness.mid`.
     static let avicii__Fade_Into_DarknessMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii__Fade_Into_Darkness", pathExtension: "mid")
     /// Resource file `Avicii_levels.mid`.
     static let avicii_levelsMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Avicii_levels", pathExtension: "mid")
-    /// Resource file `Axwell_L_Ingrosso_-_More_Than_You_Know.mid`.
-    static let axwell_L_Ingrosso__More_Than_You_KnowMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Axwell_L_Ingrosso_-_More_Than_You_Know", pathExtension: "mid")
     /// Resource file `Axwell__Ingrosso_-_Dreamer_ft.mid`.
     static let axwell__Ingrosso__Dreamer_ftMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Axwell__Ingrosso_-_Dreamer_ft", pathExtension: "mid")
     /// Resource file `B1.wav`.
@@ -160,6 +223,10 @@ struct R: Rswift.Validatable {
     static let eb5Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb5", pathExtension: "wav")
     /// Resource file `Eb6.wav`.
     static let eb6Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "Eb6", pathExtension: "wav")
+    /// Resource file `Eiffel_65_-_Blue_Da_Ba_Dee.mid`.
+    static let eiffel_65__Blue_Da_Ba_DeeMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Eiffel_65_-_Blue_Da_Ba_Dee", pathExtension: "mid")
+    /// Resource file `Eiffel_65_-_Too_Much_of_Heaven.mid`.
+    static let eiffel_65__Too_Much_of_HeavenMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Eiffel_65_-_Too_Much_of_Heaven", pathExtension: "mid")
     /// Resource file `F2.wav`.
     static let f2Wav = Rswift.FileResource(bundle: R.hostingBundle, name: "F2", pathExtension: "wav")
     /// Resource file `F3.wav`.
@@ -216,8 +283,6 @@ struct R: Rswift.Validatable {
     static let marshmello__AloneMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Marshmello_-_Alone", pathExtension: "mid")
     /// Resource file `More_than_you_know.mid`.
     static let more_than_you_knowMid = Rswift.FileResource(bundle: R.hostingBundle, name: "More_than_you_know", pathExtension: "mid")
-    /// Resource file `On_My_Way_-_AxwellIngrosso.mid`.
-    static let on_My_Way__AxwellIngrossoMid = Rswift.FileResource(bundle: R.hostingBundle, name: "On_My_Way_-_AxwellIngrosso", pathExtension: "mid")
     /// Resource file `Pizza_Orchestral_Martin_garrix.mid`.
     static let pizza_Orchestral_Martin_garrixMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Pizza_Orchestral_Martin_garrix", pathExtension: "mid")
     /// Resource file `Red_Lights.mid`.
@@ -232,8 +297,6 @@ struct R: Rswift.Validatable {
     static let something_Just_Like_ThisThe_ChainsmokersMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Something_Just_Like_This-The_Chainsmokers", pathExtension: "mid")
     /// Resource file `Sun_Is_Shining.mid`.
     static let sun_Is_ShiningMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Sun_Is_Shining", pathExtension: "mid")
-    /// Resource file `Swedish_House_Mafia_Medley.mid`.
-    static let swedish_House_Mafia_MedleyMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Swedish_House_Mafia_Medley", pathExtension: "mid")
     /// Resource file `Waiting_For_Love.mid`.
     static let waiting_For_LoveMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Waiting_For_Love", pathExtension: "mid")
     /// Resource file `Wake_Me_Up_-_Avicii.mid`.
@@ -244,6 +307,8 @@ struct R: Rswift.Validatable {
     static let wake_me_up_Avicii2Mid = Rswift.FileResource(bundle: R.hostingBundle, name: "Wake_me_up_Avicii-2", pathExtension: "mid")
     /// Resource file `Years.mid`.
     static let yearsMid = Rswift.FileResource(bundle: R.hostingBundle, name: "Years", pathExtension: "mid")
+    /// Resource file `no_beef.mid`.
+    static let no_beefMid = Rswift.FileResource(bundle: R.hostingBundle, name: "no_beef", pathExtension: "mid")
     /// Resource file `tiesto_written_in_reverse.mid`.
     static let tiesto_written_in_reverseMid = Rswift.FileResource(bundle: R.hostingBundle, name: "tiesto_written_in_reverse", pathExtension: "mid")
     
@@ -343,12 +408,6 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
-    /// `bundle.url(forResource: "Avicii_-_Heaven_Chris_Martin", withExtension: "mid")`
-    static func avicii__Heaven_Chris_MartinMid(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.avicii__Heaven_Chris_MartinMid
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
     /// `bundle.url(forResource: "Avicii_-_Lonely_Together_ft._Rita_Ora", withExtension: "mid")`
     static func avicii__Lonely_Together_ft_Rita_OraMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.avicii__Lonely_Together_ft_Rita_OraMid
@@ -358,12 +417,6 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "Avicii_-_SOS", withExtension: "mid")`
     static func avicii__SOSMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.avicii__SOSMid
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
-    /// `bundle.url(forResource: "Avicii_-_Without_You_feat._Sandro_Cavazza", withExtension: "mid")`
-    static func avicii__Without_You_feat_Sandro_CavazzaMid(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.avicii__Without_You_feat_Sandro_CavazzaMid
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -382,12 +435,6 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "Avicii_levels", withExtension: "mid")`
     static func avicii_levelsMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.avicii_levelsMid
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
-    /// `bundle.url(forResource: "Axwell_L_Ingrosso_-_More_Than_You_Know", withExtension: "mid")`
-    static func axwell_L_Ingrosso__More_Than_You_KnowMid(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.axwell_L_Ingrosso__More_Than_You_KnowMid
       return fileResource.bundle.url(forResource: fileResource)
     }
     
@@ -673,6 +720,18 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
+    /// `bundle.url(forResource: "Eiffel_65_-_Blue_Da_Ba_Dee", withExtension: "mid")`
+    static func eiffel_65__Blue_Da_Ba_DeeMid(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eiffel_65__Blue_Da_Ba_DeeMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "Eiffel_65_-_Too_Much_of_Heaven", withExtension: "mid")`
+    static func eiffel_65__Too_Much_of_HeavenMid(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.eiffel_65__Too_Much_of_HeavenMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
     /// `bundle.url(forResource: "F2", withExtension: "wav")`
     static func f2Wav(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.f2Wav
@@ -841,12 +900,6 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
-    /// `bundle.url(forResource: "On_My_Way_-_AxwellIngrosso", withExtension: "mid")`
-    static func on_My_Way__AxwellIngrossoMid(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.on_My_Way__AxwellIngrossoMid
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
     /// `bundle.url(forResource: "Pizza_Orchestral_Martin_garrix", withExtension: "mid")`
     static func pizza_Orchestral_Martin_garrixMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.pizza_Orchestral_Martin_garrixMid
@@ -889,12 +942,6 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
     
-    /// `bundle.url(forResource: "Swedish_House_Mafia_Medley", withExtension: "mid")`
-    static func swedish_House_Mafia_MedleyMid(_: Void = ()) -> Foundation.URL? {
-      let fileResource = R.file.swedish_House_Mafia_MedleyMid
-      return fileResource.bundle.url(forResource: fileResource)
-    }
-    
     /// `bundle.url(forResource: "Waiting_For_Love", withExtension: "mid")`
     static func waiting_For_LoveMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.waiting_For_LoveMid
@@ -922,6 +969,12 @@ struct R: Rswift.Validatable {
     /// `bundle.url(forResource: "Years", withExtension: "mid")`
     static func yearsMid(_: Void = ()) -> Foundation.URL? {
       let fileResource = R.file.yearsMid
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+    
+    /// `bundle.url(forResource: "no_beef", withExtension: "mid")`
+    static func no_beefMid(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.no_beefMid
       return fileResource.bundle.url(forResource: fileResource)
     }
     

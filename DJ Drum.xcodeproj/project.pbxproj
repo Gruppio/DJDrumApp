@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9003DC6E247DBF5500693E01 /* no_beef.mid in Resources */ = {isa = PBXBuildFile; fileRef = 9003DC6D247DBF5400693E01 /* no_beef.mid */; };
+		9036323E247160F100A11D51 /* MusicSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036323D247160F100A11D51 /* MusicSheetView.swift */; };
+		903632402471610000A11D51 /* MusicSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036323F2471610000A11D51 /* MusicSheetViewModel.swift */; };
+		903632422471611900A11D51 /* MusicSheetNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903632412471611900A11D51 /* MusicSheetNoteView.swift */; };
+		903632452471E5BE00A11D51 /* GridStack in Frameworks */ = {isa = PBXBuildFile; productRef = 903632442471E5BE00A11D51 /* GridStack */; };
 		90635E98236C380100DF16E6 /* MidiNotesPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90635E97236C380100DF16E6 /* MidiNotesPlayer.swift */; };
 		9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083086A236AE56C00DBC014 /* AppDelegate.swift */; };
 		9083086D236AE56C00DBC014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083086C236AE56C00DBC014 /* SceneDelegate.swift */; };
@@ -87,24 +92,22 @@
 		90B79ED32374E0A400A377E1 /* High_on_Life.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC12374E0A300A377E1 /* High_on_Life.mid */; };
 		90B79ED42374E0A400A377E1 /* Animals_-_Martin_Garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */; };
 		90B79ED52374E0A400A377E1 /* Animals-Martin_Garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */; };
-		90B79ED62374E0A400A377E1 /* Swedish_House_Mafia_Medley.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */; };
 		90B79ED72374E0A400A377E1 /* Waiting_For_Love.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */; };
-		90B79ED82374E0A400A377E1 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */; };
-		90B79ED92374E0A400A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */; };
 		90B79EDA2374E0A400A377E1 /* Marshmello_-_Alone.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */; };
 		90B79EDB2374E0A400A377E1 /* High_on_Life.mscz.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */; };
 		90B79EDC2374E0A400A377E1 /* Levels.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECA2374E0A300A377E1 /* Levels.mid */; };
 		90B79EDD2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */; };
 		90B79EDE2374E0A400A377E1 /* tiesto_written_in_reverse.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */; };
-		90B79EDF2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */; };
 		90B79EE02374E0A400A377E1 /* ALESSO_HEROES.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECE2374E0A400A377E1 /* ALESSO_HEROES.mid */; };
 		90B79EE12374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */; };
 		90B79EE22374E0A400A377E1 /* Red_Lights.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED02374E0A400A377E1 /* Red_Lights.mid */; };
-		90B79EE32374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */; };
 		90D52F2C23B5511700FB4BB3 /* PlayingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */; };
 		90D52F2E23B5512F00FB4BB3 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */; };
 		90D52F3023B57A8100FB4BB3 /* PadMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */; };
 		90D52F3423B5850000FB4BB3 /* IntonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D52F3323B5850000FB4BB3 /* IntonationView.swift */; };
+		90EA2EA52487774600599EFA /* Eiffel_65_-_Too_Much_of_Heaven.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90EA2EA42487774600599EFA /* Eiffel_65_-_Too_Much_of_Heaven.mid */; };
+		90EA2EA72487775100599EFA /* Eiffel_65_-_Blue_Da_Ba_Dee.mid in Resources */ = {isa = PBXBuildFile; fileRef = 90EA2EA62487775100599EFA /* Eiffel_65_-_Blue_Da_Ba_Dee.mid */; };
+		90EB5962247ACCBA005A9210 /* MusicSheetIntonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB5961247ACCBA005A9210 /* MusicSheetIntonationView.swift */; };
 		90EB96C223B130C10017BB6C /* PianoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB96C123B130C10017BB6C /* PianoPlayer.swift */; };
 		90EB971123B131970017BB6C /* Gb5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C523B131970017BB6C /* Gb5.wav */; };
 		90EB971223B131970017BB6C /* Ab3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 90EB96C623B131970017BB6C /* Ab3.wav */; };
@@ -195,6 +198,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9003DC6D247DBF5400693E01 /* no_beef.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = no_beef.mid; sourceTree = "<group>"; };
+		9036323D247160F100A11D51 /* MusicSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetView.swift; sourceTree = "<group>"; };
+		9036323F2471610000A11D51 /* MusicSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetViewModel.swift; sourceTree = "<group>"; };
+		903632412471611900A11D51 /* MusicSheetNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetNoteView.swift; sourceTree = "<group>"; };
 		90635E97236C380100DF16E6 /* MidiNotesPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiNotesPlayer.swift; sourceTree = "<group>"; };
 		90830867236AE56C00DBC014 /* DJ Drum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DJ Drum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9083086A236AE56C00DBC014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -279,24 +286,22 @@
 		90B79EC12374E0A300A377E1 /* High_on_Life.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = High_on_Life.mid; sourceTree = "<group>"; };
 		90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Animals_-_Martin_Garrix.mid"; sourceTree = "<group>"; };
 		90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Animals-Martin_Garrix.mid"; sourceTree = "<group>"; };
-		90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = Swedish_House_Mafia_Medley.mid; path = ../../../../../../Downloads/Swedish_House_Mafia_Medley.mid; sourceTree = "<group>"; };
 		90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Waiting_For_Love.mid; sourceTree = "<group>"; };
-		90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Avicii_-_Heaven_Chris_Martin.mid"; path = "../../../../../../Downloads/Avicii_-_Heaven_Chris_Martin.mid"; sourceTree = "<group>"; };
-		90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; path = "../../../../../../Downloads/Axwell_L_Ingrosso_-_More_Than_You_Know.mid"; sourceTree = "<group>"; };
 		90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Marshmello_-_Alone.mid"; sourceTree = "<group>"; };
 		90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = High_on_Life.mscz.mid; sourceTree = "<group>"; };
 		90B79ECA2374E0A300A377E1 /* Levels.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Levels.mid; sourceTree = "<group>"; };
 		90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Something_Just_Like_This-The_Chainsmokers.mid"; sourceTree = "<group>"; };
 		90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = tiesto_written_in_reverse.mid; sourceTree = "<group>"; };
-		90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; path = "../../../../../../Downloads/Avicii_-_Without_You_feat._Sandro_Cavazza.mid"; sourceTree = "<group>"; };
 		90B79ECE2374E0A400A377E1 /* ALESSO_HEROES.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = ALESSO_HEROES.mid; sourceTree = "<group>"; };
 		90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Pizza_Orchestral_Martin_garrix.mid; sourceTree = "<group>"; };
 		90B79ED02374E0A400A377E1 /* Red_Lights.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Red_Lights.mid; sourceTree = "<group>"; };
-		90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; name = "On_My_Way_-_AxwellIngrosso.mid"; path = "../../../../../../Downloads/On_My_Way_-_AxwellIngrosso.mid"; sourceTree = "<group>"; };
 		90D52F2B23B5511700FB4BB3 /* PlayingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewModel.swift; sourceTree = "<group>"; };
 		90D52F2D23B5512F00FB4BB3 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
 		90D52F2F23B57A8100FB4BB3 /* PadMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadMapping.swift; sourceTree = "<group>"; };
 		90D52F3323B5850000FB4BB3 /* IntonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntonationView.swift; sourceTree = "<group>"; };
+		90EA2EA42487774600599EFA /* Eiffel_65_-_Too_Much_of_Heaven.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Eiffel_65_-_Too_Much_of_Heaven.mid"; sourceTree = "<group>"; };
+		90EA2EA62487775100599EFA /* Eiffel_65_-_Blue_Da_Ba_Dee.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "Eiffel_65_-_Blue_Da_Ba_Dee.mid"; sourceTree = "<group>"; };
+		90EB5961247ACCBA005A9210 /* MusicSheetIntonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetIntonationView.swift; sourceTree = "<group>"; };
 		90EB96C123B130C10017BB6C /* PianoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoPlayer.swift; sourceTree = "<group>"; };
 		90EB96C523B131970017BB6C /* Gb5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gb5.wav; sourceTree = "<group>"; };
 		90EB96C623B131970017BB6C /* Ab3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ab3.wav; sourceTree = "<group>"; };
@@ -382,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				908308E8236AE82C00DBC014 /* Rswift in Frameworks */,
+				903632452471E5BE00A11D51 /* GridStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +401,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9036323C247160C900A11D51 /* MusicSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9036323D247160F100A11D51 /* MusicSheetView.swift */,
+				9036323F2471610000A11D51 /* MusicSheetViewModel.swift */,
+				903632412471611900A11D51 /* MusicSheetNoteView.swift */,
+				90EB5961247ACCBA005A9210 /* MusicSheetIntonationView.swift */,
+			);
+			path = MusicSheet;
+			sourceTree = "<group>";
+		};
 		9083085E236AE56C00DBC014 = {
 			isa = PBXGroup;
 			children = (
@@ -556,26 +573,25 @@
 				908308DB236AE72300DBC014 /* Amour_tojours.mid */,
 				90B79EC22374E0A300A377E1 /* Animals_-_Martin_Garrix.mid */,
 				90B79EC32374E0A300A377E1 /* Animals-Martin_Garrix.mid */,
+				9003DC6D247DBF5400693E01 /* no_beef.mid */,
 				90B79EC02374E0A300A377E1 /* Avicii__Fade_Into_Darkness.mid */,
-				90B79EC62374E0A300A377E1 /* Avicii_-_Heaven_Chris_Martin.mid */,
 				90830909236BA6BD00DBC014 /* Avicii_-_Lonely_Together_ft._Rita_Ora.mid */,
 				9083090A236BA6BD00DBC014 /* Avicii_-_SOS.mid */,
-				90B79ECD2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid */,
 				90830913236BA6BD00DBC014 /* Avicii_levels.mid */,
 				9083090E236BA6BD00DBC014 /* Avicii_Medley.mid */,
 				90830911236BA6BD00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid */,
-				90B79EC72374E0A300A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid */,
 				908308D9236AE72300DBC014 /* Belong.mid */,
+				90EA2EA42487774600599EFA /* Eiffel_65_-_Too_Much_of_Heaven.mid */,
 				908308D8236AE72300DBC014 /* Calling.mid */,
 				90830907236BA6BD00DBC014 /* Heaven_-_Avicii__Piano_Tutorial.mid */,
 				90830910236BA6BD00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid */,
 				90B79EC12374E0A300A377E1 /* High_on_Life.mid */,
 				90B79EC92374E0A300A377E1 /* High_on_Life.mscz.mid */,
 				90B79ECA2374E0A300A377E1 /* Levels.mid */,
+				90EA2EA62487775100599EFA /* Eiffel_65_-_Blue_Da_Ba_Dee.mid */,
 				908308DD236AE72300DBC014 /* Lonely_together.mid */,
 				90B79EC82374E0A300A377E1 /* Marshmello_-_Alone.mid */,
 				908308DE236AE72400DBC014 /* More_than_you_know.mid */,
-				90B79ED12374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid */,
 				90B79ECF2374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid */,
 				90B79ED02374E0A400A377E1 /* Red_Lights.mid */,
 				9083090B236BA6BD00DBC014 /* Sebastian_Ingrosso_-_Reload.mid */,
@@ -583,7 +599,6 @@
 				90B79ECB2374E0A400A377E1 /* Something_Just_Like_This-The_Chainsmokers.mid */,
 				9083090D236BA6BD00DBC014 /* SOS_-_Avicii__Aloe_Blacc.mid */,
 				90830908236BA6BD00DBC014 /* Sun_Is_Shining.mid */,
-				90B79EC42374E0A300A377E1 /* Swedish_House_Mafia_Medley.mid */,
 				90B79ECC2374E0A400A377E1 /* tiesto_written_in_reverse.mid */,
 				90B79EC52374E0A300A377E1 /* Waiting_For_Love.mid */,
 				90830915236BA6BE00DBC014 /* Wake_Me_Up_-_Avicii.mid */,
@@ -611,6 +626,7 @@
 		90B0F9A323B36C820063BBE4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9036323C247160C900A11D51 /* MusicSheet */,
 				90B0F9AB23B370F50063BBE4 /* PlayingView */,
 				90B0F9A623B36CDC0063BBE4 /* TutorialView */,
 				908308EE236AEAE900DBC014 /* SelectSongView.swift */,
@@ -767,6 +783,7 @@
 			name = "DJ Drum";
 			packageProductDependencies = (
 				908308E7236AE82C00DBC014 /* Rswift */,
+				903632442471E5BE00A11D51 /* GridStack */,
 			);
 			productName = "DJ Drum";
 			productReference = 90830867236AE56C00DBC014 /* DJ Drum.app */;
@@ -820,6 +837,7 @@
 			mainGroup = 9083085E236AE56C00DBC014;
 			packageReferences = (
 				908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */,
+				903632432471E5BE00A11D51 /* XCRemoteSwiftPackageReference "GridStack" */,
 			);
 			productRefGroup = 90830868236AE56C00DBC014 /* Products */;
 			projectDirPath = "";
@@ -853,7 +871,6 @@
 				90B79EE22374E0A400A377E1 /* Red_Lights.mid in Resources */,
 				90EB971B23B131970017BB6C /* Eb5.wav in Resources */,
 				90EB973B23B131970017BB6C /* As2.wav in Resources */,
-				90B79EDF2374E0A400A377E1 /* Avicii_-_Without_You_feat._Sandro_Cavazza.mid in Resources */,
 				908308E4236AE72400DBC014 /* Lonely_together.mid in Resources */,
 				90830924236BA6BE00DBC014 /* Axwell__Ingrosso_-_Dreamer_ft.mid in Resources */,
 				90B79ED72374E0A400A377E1 /* Waiting_For_Love.mid in Resources */,
@@ -869,7 +886,6 @@
 				90EB973E23B131970017BB6C /* C5.wav in Resources */,
 				90830923236BA6BE00DBC014 /* Heroes_-Alesso_for_Front_ensemble.mid in Resources */,
 				90EB971323B131970017BB6C /* F5.wav in Resources */,
-				90B79EE32374E0A400A377E1 /* On_My_Way_-_AxwellIngrosso.mid in Resources */,
 				908308DF236AE72400DBC014 /* Calling.mid in Resources */,
 				90EB974623B131970017BB6C /* As5.wav in Resources */,
 				90B79EE12374E0A400A377E1 /* Pizza_Orchestral_Martin_garrix.mid in Resources */,
@@ -893,13 +909,11 @@
 				90EB971D23B131970017BB6C /* Ab5.wav in Resources */,
 				90EB973123B131970017BB6C /* Db3.wav in Resources */,
 				90EB973223B131970017BB6C /* A5.wav in Resources */,
-				90B79ED82374E0A400A377E1 /* Avicii_-_Heaven_Chris_Martin.mid in Resources */,
 				90B79ED22374E0A400A377E1 /* Avicii__Fade_Into_Darkness.mid in Resources */,
 				90EB975623B131970017BB6C /* Fs3.wav in Resources */,
 				90EB973023B131970017BB6C /* Db2.wav in Resources */,
 				90EB973D23B131970017BB6C /* Gs4.wav in Resources */,
 				90EB971E23B131970017BB6C /* F3.wav in Resources */,
-				90B79ED62374E0A400A377E1 /* Swedish_House_Mafia_Medley.mid in Resources */,
 				90EB972A23B131970017BB6C /* A3.wav in Resources */,
 				90EB974323B131970017BB6C /* Gs3.wav in Resources */,
 				90EB975B23B131970017BB6C /* Ds3.wav in Resources */,
@@ -907,6 +921,7 @@
 				90EB974C23B131970017BB6C /* Fs5.wav in Resources */,
 				90EB974D23B131970017BB6C /* Fs4.wav in Resources */,
 				90EB972423B131970017BB6C /* G5.wav in Resources */,
+				90EA2EA72487775100599EFA /* Eiffel_65_-_Blue_Da_Ba_Dee.mid in Resources */,
 				90830921236BA6BE00DBC014 /* Avicii_Medley.mid in Resources */,
 				90830926236BA6BE00DBC014 /* Avicii_levels.mid in Resources */,
 				90830919236BA6BE00DBC014 /* Wake_me_up_Avicii-2.mid in Resources */,
@@ -928,6 +943,7 @@
 				90EB975A23B131970017BB6C /* Ds2.wav in Resources */,
 				90B79ED52374E0A400A377E1 /* Animals-Martin_Garrix.mid in Resources */,
 				90EB972623B131970017BB6C /* Bb2.wav in Resources */,
+				9003DC6E247DBF5500693E01 /* no_beef.mid in Resources */,
 				90B79ED32374E0A400A377E1 /* High_on_Life.mid in Resources */,
 				90EB974723B131970017BB6C /* As4.wav in Resources */,
 				90EB972C23B131970017BB6C /* Bb1.wav in Resources */,
@@ -947,11 +963,11 @@
 				90EB971923B131970017BB6C /* G2.wav in Resources */,
 				90EB971123B131970017BB6C /* Gb5.wav in Resources */,
 				908308E5236AE72400DBC014 /* More_than_you_know.mid in Resources */,
+				90EA2EA52487774600599EFA /* Eiffel_65_-_Too_Much_of_Heaven.mid in Resources */,
 				90EB971C23B131970017BB6C /* Gb3.wav in Resources */,
 				90EB973323B131970017BB6C /* Bb5.wav in Resources */,
 				90EB971623B131970017BB6C /* Gb4.wav in Resources */,
 				90EB974423B131970017BB6C /* B2.wav in Resources */,
-				90B79ED92374E0A400A377E1 /* Axwell_L_Ingrosso_-_More_Than_You_Know.mid in Resources */,
 				90EB972523B131970017BB6C /* Eb3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,6 +1013,8 @@
 				90B0F9A823B36D1E0063BBE4 /* MainView.swift in Sources */,
 				908308FB236B4FF900DBC014 /* DrumView.swift in Sources */,
 				908308CA236AE68C00DBC014 /* MidiEventUserData.swift in Sources */,
+				9036323E247160F100A11D51 /* MusicSheetView.swift in Sources */,
+				90EB5962247ACCBA005A9210 /* MusicSheetIntonationView.swift in Sources */,
 				908308CF236AE68C00DBC014 /* MidiNoteTrack.swift in Sources */,
 				908308D1236AE68C00DBC014 /* Byte.swift in Sources */,
 				9083086B236AE56C00DBC014 /* AppDelegate.swift in Sources */,
@@ -1026,6 +1044,7 @@
 				908308B6236AE68C00DBC014 /* MidiError.swift in Sources */,
 				908308FD236B550700DBC014 /* DrumState.swift in Sources */,
 				908308D3236AE68C00DBC014 /* HeaderChunk.swift in Sources */,
+				903632422471611900A11D51 /* MusicSheetNoteView.swift in Sources */,
 				908308BB236AE68C00DBC014 /* MidiAUPresetEvent.swift in Sources */,
 				90D52F2E23B5512F00FB4BB3 /* PlayingView.swift in Sources */,
 				908308BC236AE68C00DBC014 /* MidiChannelMessage.swift in Sources */,
@@ -1042,6 +1061,7 @@
 				908308C2236AE68C00DBC014 /* MetaEventProtocol.swift in Sources */,
 				908308B9236AE68C00DBC014 /* PatchFamily.swift in Sources */,
 				908308CB236AE68C00DBC014 /* MidiExtendedTempo.swift in Sources */,
+				903632402471610000A11D51 /* MusicSheetViewModel.swift in Sources */,
 				90B0F99F23B34BEC0063BBE4 /* TestSong.swift in Sources */,
 				908308D5236AE68C00DBC014 /* EventIterator.swift in Sources */,
 				908308BE236AE68C00DBC014 /* MidiRawData.swift in Sources */,
@@ -1319,6 +1339,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		903632432471E5BE00A11D51 /* XCRemoteSwiftPackageReference "GridStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pietropizzi/GridStack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 		908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
@@ -1330,6 +1358,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		903632442471E5BE00A11D51 /* GridStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 903632432471E5BE00A11D51 /* XCRemoteSwiftPackageReference "GridStack" */;
+			productName = GridStack;
+		};
 		908308E7236AE82C00DBC014 /* Rswift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 908308E6236AE82C00DBC014 /* XCRemoteSwiftPackageReference "R.swift" */;

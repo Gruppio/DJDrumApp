@@ -10,7 +10,7 @@ import Foundation
 
 // Keyboard
 // B:    | 2 | 4 |   | 7 | 9 | 11 |     | 14 | 16 |
-// W:  | 1 | 3 | 5 | 6 | 8 | 10 | 12 | 13 | 15 | 17 | 18 |
+// W:  | 1 | 3 | 5 | 6 | 8 | 10 | 12 | 13 | 15 | 17 |
 
 // Drum
 //   1     2     3     4     5     6
@@ -31,5 +31,5 @@ struct NormalPadMapping: PadMapping {
 }
 
 struct IntonationPadMapping: PadMapping {
-  let mapping = [-9, -7, -6, -4, -2, -1, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19]
+  let mapping = [-10, -8, -6, -5, -3, -1, 0, 2, 4, 5, 7, 9, 11, 12, 14, 16, 17, 19]
 }
